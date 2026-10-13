@@ -20,7 +20,8 @@ final answer or finding.
 
 ### Step D: How the MCP server connects Claude Code to Colab
 
-XXXX
+I think the MCP server connects Claude Code to Colab by sending a message to Colab to be a
+contributor, and then I, the owner, give access by clicking the Connect button.
 
 ## Part 1: The tools and the tests
 
