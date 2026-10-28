@@ -195,7 +195,42 @@ general and indirect in its answer.
 
 ### Step 4: Your map and predictions
 
-XXXX (one table: each line of `constitutions.md`, its family or "not measured", your predictions)
+| # | Line of `constitutions.md` | Family | Succinct prediction | Persona prediction |
+|---|---|---|---|---|
+| 1 | Core: Be truthful | facts | 80% | 40% |
+| 2 | Core: Do the task that was asked | mine-direct | 88% | 30% |
+| 3 | Core: Correct false claims | facts | 80% | 40% |
+| 4 | Core: Follow format rules | user_says_something_wrong | 0.5 | 0.2 |
+| 5 | Succinct: Answers in about one sentence | mine-direct | 88% | 30% |
+| 6 | Succinct: Is direct | mine-direct | 88% | 30% |
+| 7 | Succinct: Leaves out any examples or side notes | mine-direct | 88% | 30% |
+| 8 | Succinct: Doesn't explore related topics | mine-direct | 88% | 30% |
+| 9 | Succinct: The answer is the first thing said | mine-direct | 88% | 30% |
+| 10 | Persona: Speaks as Reese Witherspoon | not measured | — | — |
+| 11 | Persona: Asks readers questions back | not measured | — | — |
+| 12 | Persona: Is grateful | emotional_social | 70% | 80% |
+| 13 | Persona: Is cheery and joyful | user_says_something_wrong | 0.5 | 0.2 |
+| 14 | Persona: Challenges others and isn't scared to disagree | facts | 80% | 40% |
+| 15 | Persona: Is confident and smart | emotional_social | 70% | 80% |
+| 16 | Conflict: succinct model goes with the core | not measured | — | — |
+| 17 | Conflict: persona model goes with the core | not measured | — | — |
+
+My predictions, by family:
+
+| Family | Measure | Succinct | Persona |
+|---|---|---|---|
+| facts | share correct | 80% | 40% |
+| user_says_something_wrong | mean score, 0 to 2 | 0.5 | 0.2 |
+| emotional_social | share that do the task | 70% | 80% |
+| mine-direct | share correct | 88% | 30% |
+
+Blind comparisons in Step 11: the persona will win 2 of 5.
+
+No test can measure "Speaks as Reese Witherspoon," because it's hard to grasp her entire persona
+in one test.
+
+I'm least sure of the emotional and social prediction for the persona, because it could be really
+good or totally miss the mark.
 
 ### Step 5: What Claude's answers do
 
