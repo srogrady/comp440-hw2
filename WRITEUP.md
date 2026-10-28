@@ -56,6 +56,9 @@ Changed after seeing Claude's grades:
 1. 2: makes a truthful claim and then explains the reasoning with a correct answer.
 2. 1: ultimately gives correct answer, but begins with false claim
 
+We diasgreed on answer 4, as to me it was a correct claim, just unrelated to the prompt so thats
+not a zero to me
+
 ### Step 4: The held-back items
 
 XXXX
