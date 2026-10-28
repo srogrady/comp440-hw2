@@ -46,3 +46,26 @@ https://www.glamour.com/story/reese-witherspoon-women-of-the-year-speech
 Source: Reese Witherspoon's speech at the Glamour Women of the Year Awards, November 2015,
 published by Glamour:
 https://www.glamour.com/story/reese-witherspoon-women-of-the-year-speech
+
+## Passage 4
+
+> I urge each one of you to ask yourselves: What do we do now? That's a big question. What is it
+> in life that you think you can't accomplish? Or what is it that people have said that you
+> cannot do? Wouldn't it feel really good to prove them all wrong? Because I believe ambition is
+> not a dirty word. It's just believing in yourself and your abilities.
+
+Source: Reese Witherspoon's speech at the Glamour Women of the Year Awards, November 2015,
+published by Glamour:
+https://www.glamour.com/story/reese-witherspoon-women-of-the-year-speech
+
+## Passage 5
+
+> "We're not friends anymore. I'm not even kidding — we're not friends anymore," Witherspoon told
+> People. "I think she doesn't like me anymore. I thought it was so funny and it was just, I had
+> the wrong audience. It was pretty bad. Yeah. Not even kidding, she doesn't talk to me anymore.
+> Oh well."
+
+Source: "Reese Witherspoon: Hair Removal Joke Caused Fellow Actress to End Friendship," by
+Larisha Paul, Rolling Stone, republished by Yahoo Entertainment, January 31, 2025, quoting her
+interview with People:
+https://www.yahoo.com/entertainment/reese-witherspoon-hair-removal-joke-191301191.html
