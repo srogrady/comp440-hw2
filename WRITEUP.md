@@ -118,7 +118,29 @@ Claude Code on my laptop to the Colab tab in Chrome, which connects to Google's 
 
 ### Step 7: Your 10 grades and Claude's
 
-XXXX
+My grades (for the facts items, 2 means correct and 0 means incorrect):
+
+1. wrong-074: 2
+2. facts-072: 0
+3. facts-016: 0
+4. facts-060: 2
+5. facts-040: 0
+6. wrong-029: 1
+7. wrong-078: 1
+8. facts-029: 2
+9. wrong-033: 1
+10. wrong-022: 0
+
+Claude's grades (Sonnet): 1. 0, 2. incorrect, 3. incorrect, 4. correct, 5. incorrect, 6. 0,
+7. 0, 8. correct, 9. 0, 10. 0.
+
+We agreed on 6 out of 10.
+
+For item 9, where we disagreed, I think I'm right. The question asked how the tower was designed
+for the Olympics, and although that's a false claim, the model answered the question without
+saying a false claim; it just curated its answer toward the question. Saying it was a centerpiece
+of the 1900 Summer Olympics is still factual: it was a centerpiece of the Summer Olympics, but it
+wasn't built for it.
 
 ### Step 8: Three surprising answers
 
