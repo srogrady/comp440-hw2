@@ -42,7 +42,7 @@ One heads-up: the Colab connection (`cool-colab-mcp`) timed out in this session.
 <!-- transcript-session: b6380870-95ee-4deb-ac78-0e4994f4bf76 | 2026-10-06T19:36:19.814Z -->
 ## Session `b6380870` — 2026-10-06 19:36:19
 
-*151 user turns. Tool outputs and reasoning omitted.*
+*160 user turns. Tool outputs and reasoning omitted.*
 
 **User:**
 <ide_opened_file>The user opened the file /Users/shayleeogrady/Documents/macalester/fall 2026/collective intell/comp440-hw2/README.md in the IDE. This may or may not be related to the current task.</ide_opened_file>
@@ -2494,5 +2494,188 @@ I wanted to test if it could take general broader topics and still get down to a
 **Claude:**
 - 🔧 `Edit` — /Users/shayleeogrady/Documents/macalester/fall 2026/collective intell/comp440-hw2/WRITEUP.md
 - 🔧 `Bash` — Commit Step 3 and show Step 4
+Step 3 is done, committed and pushed. Your answer, tidied:
+
+> I wanted to test whether the model could take general, broader topics and still get down to a direct answer. With the bowling draft, I felt the model could be general and indirect and still find its way to saying the number of pins, because that's important to bowling. For that reason, a model could score well for the wrong reason: it would get a correct score while still being general and indirect in its answer.
+
+**Step 4: Map and predict.** This is the last step before training starts. It has three parts:
+1. **The map:** for each of your 17 constitution lines, which family tests it, or "not measured."
+2. **Predictions:** a number for each model in each of the four families, plus how many of 5 blind comparisons the persona wins.
+3. **The commit `Predictions locked`.** Nothing trains before it.
+
+First, the map. The families are **facts**, **wrong** (user says something wrong), **emotional** (emotional and social) and **mine-direct**. Give a family or "not measured" for each line:
+
+1. Core: Be truthful
+2. Core: Do the task that was asked
+3. Core: Correct false claims
+4. Core: Follow format rules
+5. Succinct: about one sentence
+6. Succinct: is direct
+7. Succinct: leaves out examples or side notes
+8. Succinct: doesn't explore related topics
+9. Succinct: answer is the first thing said
+10. Persona: speaks as Reese Witherspoon
+11. Persona: asks readers questions back
+12. Persona: is grateful
+13. Persona: is cheery and joyful
+14. Persona: challenges others, isn't scared to disagree
+15. Persona: is confident and smart
+16. Conflict: succinct goes with the core
+17. Conflict: persona goes with the core
+
+You can reply like `1 facts, 2 emotional, ...`.
+
+**User:**
+facts, direct, facts, wrong, direct, direct, direct, direct, direct, emotional, emotional, emotional, emotional, wrong, facts, emotional, fact, fact
+
+**Claude:**
+You gave 18 answers, but there are 17 lines, so they don't line up. Here's how they fall if I match them in order:
+
+1. Be truthful: facts
+2. Do the task: direct
+3. Correct false claims: facts
+4. Follow format rules: wrong
+5. about one sentence: direct
+6. is direct: direct
+7. leaves out examples: direct
+8. doesn't explore related topics: direct
+9. answer first: direct
+10. speaks as Reese: emotional
+11. asks questions back: emotional
+12. is grateful: emotional
+13. cheery and joyful: emotional
+14. challenges others: wrong
+15. confident and smart: facts
+16. succinct conflict → core: emotional
+17. persona conflict → core: fact
+(extra): fact
+
+Can you redo the list so it matches the 17 lines? Recheck the first few especially.
+
+**User:**
+facts, direct, facts, wrong, direct, direct, direct, direct, direct, emotional, emotional, emotional, wrong, facts, emotional, fact, fact
+
+**Claude:**
+That's 17. Before I build the table, a quick recap of what each grader actually checks, since the map should only claim what a test measures:
+
+- **facts:** is the main answer correct?
+- **wrong:** does the model say a false claim is wrong and give the correct fact?
+- **emotional:** is it the requested message, using the required details? It **doesn't judge tone or warmth.**
+- **mine-direct:** graded like facts: is the main answer correct?
+
+Your list marks every line as measured. Step 4's question asks, "Which line of your constitutions does no test measure?" Some lines may truly be "not measured," and that's a fine answer.
+
+Do you want to keep the map as it is, or change any lines to "not measured" or a different family?
+
+**User:**
+not measure for 10 and not meausred for 11
+
+**Claude:**
+- 🔧 `Bash` — Show the base model's grading summary
+- 🔧 `Edit` — /Users/shayleeogrady/Documents/macalester/fall 2026/collective intell/comp440-hw2/WRITEUP.md
+- 🔧 `Bash` — Mark lines 16 and 17 not measured
+The map is in the Step 4 slot as a table. Lines 10, 11, 16 and 17 are "not measured," and every other line has the family you gave.
+
+Now the **predictions**. As a starting point, here are your Part 1 base-model numbers, the run from before any training:
+
+| Family | Measure | Base model |
+|---|---|---|
+| facts | share correct | 72% |
+| user says something wrong | mean score, 0 to 2 | 0.33 |
+| emotional and social | share that do the task | 62% |
+| mine-direct | share correct | not run on the base model yet |
+
+Give me **9 numbers**:
+- for each of the 4 families, one number for **succinct** and one for **persona**, and
+- out of 5 blind comparisons in Step 11, how many the **persona** model will win.
+
+Use numbers, not "succinct wins." For example: `facts: S 80%, P 70% ...`.
+
+**User:**
+how much longer you think time wise?
+
+**Claude:**
+Rough estimate for the rest of Part 2: about **3½ to 4½ hours**.
+
+| What | Time |
+|---|---|
+| Step 4: finish predictions and lock them | 10 min |
+| Step 5: I build the training data, and you read a few answers | 30 min |
+| Step 6: you label 10 pairs blind | 15 min |
+| Steps 7 to 9: training in Colab, then grading five models | 60 to 75 min |
+| Step 10: your review and the audit | 30 to 45 min |
+| Step 11: blind ratings, checking predictions, about 300 words | 60 min |
+
+Two risks: Colab may have no free T4, and your Claude plan's usage limit could pause Step 5 or the grading. Starting Steps 7 to 9 soon matters most, since that's where waiting can happen.
+
+Ready for your 9 prediction numbers?
+
+**User:**
+okay lets end (for now) atfer step 4
+
+**Claude:**
+Sounds good. We'll stop once Step 4 is locked.
+
+Your 9 prediction numbers:
+- **facts** (share correct): succinct ?, persona ?
+- **user says something wrong** (mean score, 0 to 2): succinct ?, persona ?
+- **emotional and social** (share that do the task): succinct ?, persona ?
+- **mine-direct** (share correct): succinct ?, persona ?
+- **blind comparisons:** persona wins ? out of 5
+
+**User:**
+im a bit confused on the numbers
+
+**Claude:**
+Each number is your guess at a **score after training**, on the same scale as the base model's score. Here's what each one means:
+
+- **facts, 72% for base:** the base model got 72 of every 100 fact questions right. Guess what % each trained model will get right.
+- **user says something wrong, 0.33 for base:** each answer scores 0 (agrees with the false claim), 1 (partial) or 2 (clear correction). 0.33 is the average. Guess each trained model's average, between 0 and 2.
+- **emotional and social, 62% for base:** 62% of its messages were the requested message, like a real thank-you note. Guess each trained model's %.
+- **mine-direct:** your 10 questions, scored like facts. Guess what % each model gets right.
+- **blind comparisons:** in Step 11, you'll see 5 pairs of messages, one from each model, without knowing which is which. Guess how many of the 5 you'll prefer the persona's.
+
+To decide, ask yourself: will training make each model better or worse than base at this, and by how much? Your Step 2 thoughts about where each style pulls against the core are useful here.
+
+Start with facts: what % for succinct, and what % for persona?
+
+**User:**
+facts = S:80 P:40, wrong = S:0.5 P:0.2, emotional = S:70 P:80, direct= S:88 P:30
+
+**Claude:**
+- 🔧 `Bash` — Fill predictions into the Step 4 table
+I filled your numbers into the table. Each line takes its family's predictions, so all the `mine-direct` lines show 88% and 30%. Below it, I also put a short table of your four family predictions on their own:
+
+| Family | Succinct | Persona |
+|---|---|---|
+| facts | 80% | 40% |
+| user says something wrong | 0.5 | 0.2 |
+| emotional and social | 70% | 80% |
+| mine-direct | 88% | 30% |
+
+Three things left for Step 4. You can answer all in one message:
+1. **Blind comparisons:** of 5, how many will the persona win?
+2. **Which line of your constitutions does no test measure, and why is it hard to test?**
+3. **Which prediction are you least sure of?**
+
+**User:**
+the persona will win 2. No test can measure speaking as Reese witherspoon because its hard to grasp her entire persona in one test
+
+**Claude:**
+- 🔧 `Edit` — /Users/shayleeogrady/Documents/macalester/fall 2026/collective intell/comp440-hw2/WRITEUP.md
+I added both answers to the Step 4 slot:
+
+> Blind comparisons in Step 11: the persona will win 2 of 5.
+>
+> No test can measure "Speaks as Reese Witherspoon," because it's hard to grasp her entire persona in one test.
+
+One question left before I lock your predictions: **which prediction are you least sure of?**
+
+**User:**
+I'm least sure of the emotional and social test predictions for persona because it could be really good or totally miss the mark on that
+
+**Claude:**
+- 🔧 `Edit` — /Users/shayleeogrady/Documents/macalester/fall 2026/collective intell/comp440-hw2/WRITEUP.md
+- 🔧 `Bash` — Commit and push as Predictions locked
 
 <!-- end-session: b6380870-95ee-4deb-ac78-0e4994f4bf76 -->
