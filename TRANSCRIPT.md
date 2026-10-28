@@ -42,7 +42,7 @@ One heads-up: the Colab connection (`cool-colab-mcp`) timed out in this session.
 <!-- transcript-session: b6380870-95ee-4deb-ac78-0e4994f4bf76 | 2026-10-06T19:36:19.814Z -->
 ## Session `b6380870` — 2026-10-06 19:36:19
 
-*122 user turns. Tool outputs and reasoning omitted.*
+*125 user turns. Tool outputs and reasoning omitted.*
 
 **User:**
 <ide_opened_file>The user opened the file /Users/shayleeogrady/Documents/macalester/fall 2026/collective intell/comp440-hw2/README.md in the IDE. This may or may not be related to the current task.</ide_opened_file>
@@ -2003,5 +2003,43 @@ I'm a very avid reader. In fact, I'm a complete book nerd.
 **Claude:**
 - 🔧 `Write` — /Users/shayleeogrady/Documents/macalester/fall 2026/collective intell/comp440-hw2/voice-samples.md
 - 🔧 `Bash` — Commit Step 1; show Step 2 and constitutions file
+Step 1 is done, committed and pushed. `voice-samples.md` now has Reese Witherspoon's name and your three passages, word for word, each citing the Glamour article. I added the speech's date, November 2015, from my own knowledge, so check it against the article.
+
+**Step 2: Write your two constitutions.** A constitution is a short list of rules a model is trained to follow. Both of your models share the same **Core**, which is already written and can't be changed:
+- Be truthful.
+- Do the task that was asked.
+- Correct false claims.
+- Follow format rules.
+
+You write three sections:
+1. **Succinct style:** at least 5 lines.
+2. **Persona style:** at least 5 lines.
+3. **When they conflict.**
+
+Start with **Succinct style**. Give me at least five rules for how the succinct model answers: how long, what it keeps, and what it leaves out.
+
+**User:**
+I urge each one of you to ask yourselves: What do we do now? That's a big question. What is it in life that you think you can't accomplish? Or what is it that people have said that you cannot do? Wouldn't it feel really good to prove them all wrong? Because I believe ambition is not a dirty word. It's just believing in yourself and your abilities.
+
+**Claude:**
+- 🔧 `Edit` — /Users/shayleeogrady/Documents/macalester/fall 2026/collective intell/comp440-hw2/voice-samples.md
+That looks like another passage from the same Glamour speech, so I added it to `voice-samples.md` as **Passage 4**, word for word, with the same source. If you meant something else by it, say so.
+
+Back to **Step 2**. Give me at least five rules for the **succinct** model: how long its answers are, what they keep and what they leave out.
+
+**User:**
+"We're not friends anymore. I'm not even kidding — we're not friends anymore," Witherspoon told People. "I think she doesn't like me anymore. I thought it was so funny and it was just, I had the wrong audience. It was pretty bad. Yeah. Not even kidding, she doesn't talk to me anymore. Oh well."
+
+**Claude:**
+Another passage. This one is from a different source, though: she said it to *People* magazine, not in the Glamour speech.
+
+Each passage needs its own source. Where did you find this one? Send me the link, or the article's title and date.
+
+**User:**
+https://www.yahoo.com/entertainment/reese-witherspoon-hair-removal-joke-191301191.html?guccounter=1&guce_referrer=aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS8&guce_referrer_sig=AQAAAHQXOZ4G8O69Z3OahSCHyO7Ke6kZPmTRJAtU71eMmeeMvVh_4NyLWAwo47kzkjAK4jdyO8DG-Q4vx5jCNDEGg29CqVHRwKm01sXb4oes9pRO-jhdGmYMEqQKfMKalLZ7pZOEt7G53B9qcKz6_0SDF6qgvviuPlraU5OblsSxYKSM
+
+**Claude:**
+- 🔧 `WebFetch` — {"url": "https://www.yahoo.com/entertainment/reese-witherspoon-hair-removal-joke-191301191.html",...
+- 🔧 `Bash` — Add passage 5 with its source, commit and push
 
 <!-- end-session: b6380870-95ee-4deb-ac78-0e4994f4bf76 -->
