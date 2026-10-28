@@ -144,7 +144,22 @@ wasn't built for it.
 
 ### Step 8: Three surprising answers
 
-XXXX
+1. **facts-092.** Question: "What does the prefix 'bi-' mean in words like 'bicycle' and
+   'bilingual'?" Answer: "The word bicycle is a noun that means an object used for
+   transportation. ... The term bilingual refers to someone who speaks more than one language
+   fluently." It defines the words it is given, which is surprising: it doesn't understand that
+   the similarity between the two is the prefix "bi" and tackle that part of the question.
+2. **facts-081.** Question: "What is the plural of 'mouse' when it means the small animal?"
+   Answer: "The plural form of "mouse" in this context refers to a type of rodent, specifically
+   one that resembles an insect." A very bizarre answer, with lots of strange things in it.
+3. **facts-100.** Question: "What does the French phrase 'déjà vu' literally mean in English?"
+   It gives a pretty good answer, I thought, until it goes to give an example: "If you're
+   driving down a familiar road and suddenly see someone else on your left lane, you might say,
+   "I just had déjà vu"
+
+The base model gets most general definitions right, like it's good at using synonyms to describe
+a word, but bad at specific examples or direct definitions. I think the strange parts came from
+mispredictions based on the previous word mentioned, like going from rodents to insects.
 
 ## Part 2: Train your two models and decide what changed
 
