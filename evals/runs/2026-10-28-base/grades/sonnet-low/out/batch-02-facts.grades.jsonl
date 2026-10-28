@@ -1,0 +1,60 @@
+{"key": "kcf85890", "correct": false, "extracted_answer": "none", "reason": "It never states that bi- means two; only mentions 'two wheels' in a muddled etymology."}
+{"key": "ka17f36d", "correct": false, "extracted_answer": "a hole is the smallest unit of distance", "reason": "Main answer is a nonsense definition, and 18 appears only later alongside 'six rounds'."}
+{"key": "k9ca7ce2", "correct": true, "extracted_answer": "soybean", "reason": "Says miso is a type of soybean paste."}
+{"key": "kcc268fc", "correct": false, "extracted_answer": "New Zealand", "reason": "Answers New Zealand, not Greenland."}
+{"key": "kba7a875", "correct": true, "extracted_answer": "Indian Ocean", "reason": "Names the Indian Ocean."}
+{"key": "kc263122", "correct": true, "extracted_answer": "Mount Everest", "reason": "States Mount Everest."}
+{"key": "kc87cede", "correct": false, "extracted_answer": "7 days", "reason": "Working arrives at 7, not 8."}
+{"key": "k321f97b", "correct": true, "extracted_answer": "Zeus", "reason": "Says Zeus."}
+{"key": "kc037d84", "correct": false, "extracted_answer": "none", "reason": "Describes atomic number 79 but never gives the symbol Au."}
+{"key": "k8174ff9", "correct": true, "extracted_answer": "206", "reason": "Says 206 bones."}
+{"key": "k3c75edc", "correct": true, "extracted_answer": "Pacific Ocean", "reason": "Says the Pacific Ocean is larger than any other."}
+{"key": "k6552695", "correct": true, "extracted_answer": "3600", "reason": "Answers 3600."}
+{"key": "k5a2a0fd", "correct": true, "extracted_answer": "basil", "reason": "Lists basil as the first ingredient."}
+{"key": "kf4e53fb", "correct": true, "extracted_answer": "The skin", "reason": "Answers the skin."}
+{"key": "kf7d0622", "correct": false, "extracted_answer": "yolk, or white", "reason": "Hedges with 'The yolk, or white', giving conflicting answers."}
+{"key": "kf057bb4", "correct": true, "extracted_answer": "Mahatma Gandhi", "reason": "Names Mahatma Gandhi."}
+{"key": "kc765162", "correct": true, "extracted_answer": "225", "reason": "Answers 225."}
+{"key": "kac166a5", "correct": true, "extracted_answer": "210", "reason": "Answers 210."}
+{"key": "k108eed1", "correct": false, "extracted_answer": "5 per line, with 2 and 4 syllables on others", "reason": "Gives muddled, wrong syllable counts, not 5, 7, 5."}
+{"key": "kb1750c3", "correct": true, "extracted_answer": "Winston Churchill", "reason": "Names Winston Churchill."}
+{"key": "k01754d1", "correct": true, "extracted_answer": "Ottawa", "reason": "States Ottawa."}
+{"key": "k2206ae0", "correct": true, "extracted_answer": "Leonardo da Vinci", "reason": "Names Leonardo da Vinci."}
+{"key": "ke1dd42f", "correct": false, "extracted_answer": "Mount Rainier National Park", "reason": "Gives Mount Rainier, not Angel Falls."}
+{"key": "ka2d9fa7", "correct": true, "extracted_answer": "Qin Shi Huang", "reason": "Names Qin Shi Huang."}
+{"key": "k28139dd", "correct": true, "extracted_answer": "France", "reason": "Says donated by France."}
+{"key": "kb3c7258", "correct": true, "extracted_answer": "Inca", "reason": "Says the ancient Inca Empire built it."}
+{"key": "k862586d", "correct": true, "extracted_answer": "Gabriel García Márquez", "reason": "States the author is Gabriel García Márquez."}
+{"key": "k61bd4a6", "correct": true, "extracted_answer": "$7.50", "reason": "Working gives $7.50."}
+{"key": "k43692b0", "correct": false, "extracted_answer": "thunderclouds", "reason": "Never says hail."}
+{"key": "k71e2716", "correct": true, "extracted_answer": "antonym", "reason": "Says the word is 'antonym'."}
+{"key": "kb2ad067", "correct": true, "extracted_answer": "condensation", "reason": "Answers condensation."}
+{"key": "k5773338", "correct": true, "extracted_answer": "6", "reason": "Answers 6."}
+{"key": "k042a51f", "correct": true, "extracted_answer": "Johannes Gutenberg", "reason": "Credits Johannes Gutenberg."}
+{"key": "k0507a7f", "correct": true, "extracted_answer": "arteries", "reason": "Says the arteries carry blood away from the heart."}
+{"key": "kede0447", "correct": true, "extracted_answer": "South America", "reason": "Says Argentina is in South America."}
+{"key": "k0f08bd2", "correct": true, "extracted_answer": "1914", "reason": "Says the war was fought from 1914."}
+{"key": "k71eaac8", "correct": true, "extracted_answer": "7", "reason": "Says the pairs add up to 7."}
+{"key": "k2151eaf", "correct": true, "extracted_answer": "Venus", "reason": "Says Venus."}
+{"key": "k416e39a", "correct": true, "extracted_answer": "1789", "reason": "Says 1789."}
+{"key": "k63e4e22", "correct": true, "extracted_answer": "28 square meters", "reason": "Working arrives at 28 square meters."}
+{"key": "k6634944", "correct": false, "extracted_answer": "January, February and March", "reason": "Lists three months rather than committing to February."}
+{"key": "k5fb493b", "correct": true, "extracted_answer": "lava", "reason": "Says it is referred to as lava."}
+{"key": "ke8978d3", "correct": true, "extracted_answer": "seize the day", "reason": "Translates it as 'seize the day'."}
+{"key": "kfe36000", "correct": true, "extracted_answer": "Sputnik I", "reason": "Names Sputnik I."}
+{"key": "k7db0588", "correct": true, "extracted_answer": "1024", "reason": "Answers 1024."}
+{"key": "k5454841", "correct": true, "extracted_answer": "Tokyo", "reason": "Answers Tokyo."}
+{"key": "k1cf2d5e", "correct": true, "extracted_answer": "9", "reason": "Answers 9."}
+{"key": "k4fb8be0", "correct": false, "extracted_answer": "none", "reason": "Never states the plural; 'mice' appears only in an unrelated example."}
+{"key": "k315b053", "correct": true, "extracted_answer": "625", "reason": "Answers 625."}
+{"key": "k63d4fc3", "correct": true, "extracted_answer": "Mayflower", "reason": "Names the Mayflower."}
+{"key": "kd294e03", "correct": true, "extracted_answer": "white blood cells", "reason": "Names white blood cells."}
+{"key": "kf86d675", "correct": false, "extracted_answer": "United States of America", "reason": "Answers the United States, not Russia."}
+{"key": "k3a0d342", "correct": false, "extracted_answer": "France", "reason": "Answers France, not Vatican City."}
+{"key": "kaac5246", "correct": true, "extracted_answer": "Seine", "reason": "Names the River Seine."}
+{"key": "k62d8861", "correct": true, "extracted_answer": "The equator", "reason": "Answers the equator."}
+{"key": "k4fccc96", "correct": false, "extracted_answer": "Danube (listed first)", "reason": "Lists several rivers with Danube first and ends asking if Danube is correct; Volga not chosen."}
+{"key": "k87bae83", "correct": true, "extracted_answer": "366", "reason": "Says there will be 366 days in a leap year."}
+{"key": "k94efd2b", "correct": true, "extracted_answer": "eight", "reason": "Says a spider has eight legs."}
+{"key": "k68d85dd", "correct": true, "extracted_answer": "Charles Dickens", "reason": "Names Charles Dickens."}
+{"key": "k8e7e36a", "correct": false, "extracted_answer": "none", "reason": "Describes electric current and never says ohm."}
