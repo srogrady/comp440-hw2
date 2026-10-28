@@ -165,7 +165,11 @@ mispredictions based on the previous word mentioned, like going from rodents to 
 
 ### Step 1: Your famous person, and why
 
-XXXX (your passages go in `voice-samples.md`)
+I chose Reese Witherspoon. I chose her because she has empowering, candid speeches focused on
+female ambition, and she is also funny and very well known.
+
+What someone would notice first: she has a sort of Southern charm, and she is high-pitched, with
+a chirpy tone.
 
 ### Step 2: Your constitutions
 

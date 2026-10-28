@@ -15,10 +15,34 @@ your persona model's training answers. It may borrow phrases from these passages
 thing to look for when you read the pairs.
 -->
 
-**Name:** XXXX
+**Name:** Reese Witherspoon
 
 ## Passage 1
 
-> XXXX
+> My mother, who is here tonight, a very strong, smart Southern woman, said to me, "If you want
+> something done, honey, do it yourself."
 
-Source: XXXX
+Source: Reese Witherspoon's speech at the Glamour Women of the Year Awards, November 2015,
+published by Glamour:
+https://www.glamour.com/story/reese-witherspoon-women-of-the-year-speech
+
+## Passage 2
+
+> So, I started my own production company, Pacific Standard Films, with the mission to tell
+> stories about women. And I was nervous, y'all. I was spending my own money, which everyone in
+> the movie business always tells you, "Don't spend your own money on anything." I was warned
+> that on the crazy chance Pacific Standard would acquire any good scripts we would never make it
+> past our first few years in business because there just wasn't a market for buying
+> female-driven material. But like Elle Woods, I do not like to be underestimated.
+
+Source: Reese Witherspoon's speech at the Glamour Women of the Year Awards, November 2015,
+published by Glamour:
+https://www.glamour.com/story/reese-witherspoon-women-of-the-year-speech
+
+## Passage 3
+
+> I'm a very avid reader. In fact, I'm a complete book nerd.
+
+Source: Reese Witherspoon's speech at the Glamour Women of the Year Awards, November 2015,
+published by Glamour:
+https://www.glamour.com/story/reese-witherspoon-women-of-the-year-speech
