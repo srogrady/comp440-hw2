@@ -183,7 +183,15 @@ will pull against "is confident and smart," maybe.
 
 ### Step 3: Your test family
 
-XXXX (a paragraph on your family, and the Step 3 questions; your items go in `evals/mine/`)
+My family tests the "is direct" line of the succinct style. It is graded like `facts`, so it is
+either true or false: the model either answers in a concise, immediate way or not. I predict the
+succinct model will win.
+
+I wanted to test whether the model could take general, broader topics and still get down to a
+direct answer. With the bowling draft, I felt the model could be general and indirect and still
+find its way to saying the number of pins, because that's important to bowling. For that reason,
+a model could score well for the wrong reason: it would get a correct score while still being
+general and indirect in its answer.
 
 ### Step 4: Your map and predictions
 
