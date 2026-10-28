@@ -27,15 +27,28 @@ contributor, and then I, the owner, give access by clicking the Connect button.
 
 ### Step 1: About the model
 
-XXXX
+1) Total parameters: 0.6 billion
+2) Layers: 28
+3) Training text: 36 trillion tokens
+4) Languages: 119
+
+I expect it to perhaps take the text from the question I wrote and analyze that text.
 
 ### Step 2: What the model predicts next
 
-XXXX
+The model is not very confident: the highest probability it gave was 0.403.
+
+It changed both, and for the more concise formatted prompts, it predicted words closer to the answer.
+
+Prof. Shilad chose this format, and a different format does change the results. As we saw, it
+actually improves a bit when you remove both the "Question" and "Answer" text.
 
 ### Step 3: Your four grades
 
-XXXX
+1. 1
+2. 0
+3. 1
+4. 1
 
 ### Step 4: The held-back items
 
