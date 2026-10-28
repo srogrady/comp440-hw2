@@ -42,7 +42,7 @@ One heads-up: the Colab connection (`cool-colab-mcp`) timed out in this session.
 <!-- transcript-session: b6380870-95ee-4deb-ac78-0e4994f4bf76 | 2026-10-06T19:36:19.814Z -->
 ## Session `b6380870` — 2026-10-06 19:36:19
 
-*51 user turns. Tool outputs and reasoning omitted.*
+*59 user turns. Tool outputs and reasoning omitted.*
 
 **User:**
 <ide_opened_file>The user opened the file /Users/shayleeogrady/Documents/macalester/fall 2026/collective intell/comp440-hw2/README.md in the IDE. This may or may not be related to the current task.</ide_opened_file>
@@ -839,5 +839,111 @@ We diasgreed on answer 4, as to me it was a correct claim, just unrelated to the
 **Claude:**
 - 🔧 `Edit` — /Users/shayleeogrady/Documents/macalester/fall 2026/collective intell/comp440-hw2/WRITEUP.md
 - 🔧 `Bash` — Refresh transcript, commit, and push
+I added your answer to the end of the Step 3 slot word for word, then committed and pushed:
+
+> We diasgreed on answer 4, as to me it was a correct claim, just unrelated to the prompt so thats not a zero to me
+
+That fills Step 3. Next time we start **Step 4: The held-back items**.
+
+Before you go, choose **Runtime > Disconnect and delete runtime** in Colab.
+
+One small offer: I can fix just the two typos ("disagreed," "that's") without changing anything else. Should I?
+
+**User:**
+okay leaving it there.
+
+**Claude:**
+Okay, I've left your Step 3 answer exactly as you wrote it. Everything through Step 3 is committed and pushed to GitHub.
+
+**Next time:** say "back" and we'll start **Step 4: The held-back items**. Part 2 is due 8:00am Thursday, October 29, so plan for a longer sitting tomorrow.
+
+Don't forget to choose **Runtime > Disconnect and delete runtime** in the Colab tab.
+
+**User:**
+just did the runtime thing
+
+**Claude:**
+Thanks, that gives the T4 back. Next time, I'll reopen the notebook and rerun the setup cells.
+
+You're all set for today. Steps 1 to 3 of Part 1 are done and pushed. When you're back, say "back" and we'll start Step 4: The held-back items.
+
+**User:**
+back
+
+**Claude:**
+- 🔧 `Bash` — Check commits, template updates, and Step 4 instructions
+- 🔧 `Read` — /Users/shayleeogrady/Documents/macalester/fall 2026/collective intell/comp440-hw2/WRITEUP.md
+Welcome back. You're on **Part 1, Step 4: The held-back items**. There are no template updates. Part 2 is due 8:00am tomorrow, so let's keep moving.
+
+Step 4 doesn't need Colab. Here's the setup: Shilad has more test items of the same three kinds that you won't see. They'll be run on everyone's models at the end of the assignment.
+
+Step 4 asks two things:
+1. In two or three sentences, why are some tests held back?
+2. Describe one way your results on the visible items could look better than your model really is.
+
+Start with the first: why do you think some tests are held back?
+
+**User:**
+Im not seeing the connections of tehse questions to the work ive done rephrase these questions to me and explain. Also side note Colab didn't have me interact on it at all did i need to?
+
+**Claude:**
+**On Colab:** no, you didn't need to do more. Your jobs there are clicking Connect, choosing the T4 and disconnecting at the end. I add and run the cells through the MCP server, which is the point you made in Step B.
+
+**How Step 4 connects to your work:** in Part 2, you'll train the model to answer differently. Then you'll test it on the same 240 test items the notebook downloaded in setup, and the grader will score it. You can see all 240 of those items in `evals/shared/`. Shilad also has extra items of the same kinds that he keeps secret.
+
+Rephrased, the two questions are:
+1. Why would Shilad keep some test items secret instead of sharing them all?
+2. In Part 2, your model gets a score on the 240 items you can see. How could that score end up higher than how good the model really is?
+
+What's your guess for the first one?
+
+**User:**
+are the hidden test items run on my model
+
+**Claude:**
+Yes. According to Step 4's instructions, Shilad runs the hidden items on everyone's models at the end of the assignment, including the models you train in Part 2.
+
+The difference is when you see them. You can look at the 240 visible items while you work. You never see the hidden items, and they're only used after you're done.
+
+With that in mind, why do you think Shilad keeps some items hidden?
+
+**User:**
+Some test items may be hidden instead of fully shared, because they are better tests for confirming your model is actually doing a good job. Also we don't want to be able to design a model that addresses them specifically instead we want to make sure the model can figure them out authenticitly. This sort of creates a training set vs a outside world set of tests.
+
+**Claude:**
+- 🔧 `Edit` — /Users/shayleeogrady/Documents/macalester/fall 2026/collective intell/comp440-hw2/WRITEUP.md
+I typed your first answer into the Step 4 slot word for word:
+
+> Some test items may be hidden instead of fully shared, because they are better tests for confirming your model is actually doing a good job. Also we don't want to be able to design a model that addresses them specifically instead we want to make sure the model can figure them out authenticitly. This sort of creates a training set vs a outside world set of tests.
+
+I'll offer the small spelling fixes once both answers are in.
+
+Second question: **Describe one way your results on the visible items could look better than your model really is.**
+
+**User:**
+My results on the visible items could look better than my model really is because I can see them and adjust to fit those cases specifically so that they can perform for those visable tests.
+
+**Claude:**
+- 🔧 `Edit` — /Users/shayleeogrady/Documents/macalester/fall 2026/collective intell/comp440-hw2/WRITEUP.md
+Both Step 4 answers are now in the slot, word for word:
+
+> Some test items may be hidden instead of fully shared, because they are better tests for confirming your model is actually doing a good job. Also we don't want to be able to design a model that addresses them specifically instead we want to make sure the model can figure them out authenticitly. This sort of creates a training set vs a outside world set of tests.
+>
+> My results on the visible items could look better than my model really is because I can see them and adjust to fit those cases specifically so that they can perform for those visable tests.
+
+Here's a tidied version. It fixes spelling and punctuation only:
+
+> ...we don't want to be able to design a model that addresses them specifically; instead, we want to make sure the model can figure them out authentically. This sort of creates a training set vs. an outside-world set of tests.
+>
+> ...because I can see them and adjust to fit those cases specifically, so that it performs well on those visible tests.
+
+Should I use the tidied version, or keep yours?
+
+**User:**
+tidied
+
+**Claude:**
+- 🔧 `Bash` — Write tidied Step 4 and show Step 5 instructions
+- 🔧 `Bash` — Confirm only the Step 4 slot changed
 
 <!-- end-session: b6380870-95ee-4deb-ac78-0e4994f4bf76 -->
