@@ -61,7 +61,13 @@ not a zero to me
 
 ### Step 4: The held-back items
 
-XXXX
+Some test items may be hidden instead of fully shared, because they are better tests for
+confirming your model is actually doing a good job. Also we don't want to be able to design a
+model that addresses them specifically; instead, we want to make sure the model can figure them
+out authentically. This sort of creates a training set vs. an outside-world set of tests.
+
+My results on the visible items could look better than my model really is because I can see them
+and adjust to fit those cases specifically, so that it performs well on those visible tests.
 
 ### Step 5: Your run folder
 
