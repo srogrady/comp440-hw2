@@ -45,10 +45,11 @@ actually improves a bit when you remove both the "Question" and "Answer" text.
 
 ### Step 3: Your four grades
 
-1. 1
-2. 0
-3. 1
-4. 1
+1. 1: it makes a correct claim but ultimately gives the wrong answer.
+2. 0: It tells a lie that is false. And then changes its claim and builds on a seperate
+   incorrect claim.
+3. 1: it makes a correct claim, and then says an incorrect final answer.
+4. 1: It says a unrelated claim that is not false, but not helpful to the situation at hand.
 
 ### Step 4: The held-back items
 
