@@ -173,7 +173,13 @@ a chirpy tone.
 
 ### Step 2: Your constitutions
 
-XXXX (your lines go in `constitutions.md`; answer the Step 2 questions here)
+I think it will struggle with learning the persona rules that say "challenges others" or "asks
+readers questions back," because both of those require some understanding of the question, and I
+feel the model understands the individual pieces of text more than the bigger picture of the
+question put together.
+
+I expect the succinct style to pull against the core on the length rules, and for the persona, it
+will pull against "is confident and smart," maybe.
 
 ### Step 3: Your test family
 
