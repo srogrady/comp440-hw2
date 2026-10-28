@@ -42,7 +42,7 @@ One heads-up: the Colab connection (`cool-colab-mcp`) timed out in this session.
 <!-- transcript-session: b6380870-95ee-4deb-ac78-0e4994f4bf76 | 2026-10-06T19:36:19.814Z -->
 ## Session `b6380870` — 2026-10-06 19:36:19
 
-*112 user turns. Tool outputs and reasoning omitted.*
+*114 user turns. Tool outputs and reasoning omitted.*
 
 **User:**
 <ide_opened_file>The user opened the file /Users/shayleeogrady/Documents/macalester/fall 2026/collective intell/comp440-hw2/README.md in the IDE. This may or may not be related to the current task.</ide_opened_file>
@@ -1842,5 +1842,43 @@ keep it as is because that is stull factual it was a center pieve of the summer 
 **Claude:**
 - 🔧 `Edit` — /Users/shayleeogrady/Documents/macalester/fall 2026/collective intell/comp440-hw2/WRITEUP.md
 - 🔧 `Bash` — Commit Step 7 and show Step 8
+Step 7 is done, committed and pushed. Your disagreement answer, tidied, now reads:
+
+> For item 9, where we disagreed, I think I'm right. The question asked how the tower was designed for the Olympics, and although that's a false claim, the model answered the question without saying a false claim; it just curated its answer toward the question. Saying it was a centerpiece of the 1900 Summer Olympics is still factual: it was a centerpiece of the Summer Olympics, but it wasn't built for it.
+
+**Step 8: Three surprising answers.** Browse your run in the viewer at http://127.0.0.1:8440/ and pick **three** answers that surprise you. The answers you just graded count too. The instructions hint: read past the first sentence and look at what the model writes after it has answered.
+
+For each of your three, give me:
+- the item `id` or the question, and
+- the part of the answer that surprised you.
+
+You can paste all three in one message.
+
+**User:**
+1) Id = facts-092, it defines the words it is given which is suprising that it wouldn't understand that the similarity between the two is the prefix "bi" and tackle that part of the question. 
+2) id = facts-081, very bizzare answer " The plural form of "mouse" in this context refers to a type of rodent, specifically one that resembles an insect." Lots of strange things in this answer. 
+3) id = facts-100. Gives a pretty good answer I thought until it goes to give an example. If you're driving down a familiar road and suddenly see someone else on your left lane, you might say, "I just had déjà vu
+
+**Claude:**
+- 🔧 `Bash` — Look up the three chosen questions and answers
+- 🔧 `Edit` — /Users/shayleeogrady/Documents/macalester/fall 2026/collective intell/comp440-hw2/WRITEUP.md
+Your three answers are in the Step 8 slot. I copied each question from the item file and quoted the part of the answer you pointed to. For facts-092, you described the part instead of quoting it, so I quoted the two definitions it gives. Your comments are tidied:
+
+> 1. **facts-092.** ...It defines the words it is given, which is surprising: it doesn't understand that the similarity between the two is the prefix "bi" and tackle that part of the question.
+> 2. **facts-081.** ..."specifically one that resembles an insect." A very bizarre answer, with lots of strange things in it.
+> 3. **facts-100.** ...It gives a pretty good answer, I thought, until it goes to give an example: "If you're driving down a familiar road..."
+
+Step 8's two questions, which you can answer together:
+1. **What does the base model get right, and what does it get wrong?**
+2. **Where do you think the strange parts came from?** Think back to Step 2: what was the model trained to do?
+
+**User:**
+the base model gets most general definitions right like good at using synonyms to describe a word, but bad at specific examples or direct definitions. I think the strange parts came from mispredictions based on the previous word mentioned like with rodents to insects.
+
+**Claude:**
+- 🔧 `Edit` — /Users/shayleeogrady/Documents/macalester/fall 2026/collective intell/comp440-hw2/WRITEUP.md
+- 🔧 `Skill` — checkpoint
+- 🔧 `Bash` — Check run folder, template updates, and transcript
+- 🔧 `Read` — /Users/shayleeogrady/Documents/macalester/fall 2026/collective intell/comp440-hw2/WRITEUP.md
 
 <!-- end-session: b6380870-95ee-4deb-ac78-0e4994f4bf76 -->
