@@ -75,7 +75,46 @@ and adjust to fit those cases specifically, so that it performs well on those vi
 
 ### Step 6: One question traced, and your diagram
 
-XXXX (type the diagram here, or add an image of it to the repository and link it here)
+I traced `facts-099` ("What is the word for a word that means the opposite of another word, like
+'hot' and 'cold'?").
+
+1. The question and accepted answer ("An antonym"): `evals/shared/facts.jsonl`
+2. The base model's answer: `evals/runs/2026-10-28-base/responses/base.jsonl`
+3. Claude's grade (correct) and reason ("Says the word is 'antonym'."):
+   `evals/runs/2026-10-28-base/grades/sonnet-low/grades.jsonl`
+4. The grading rules: `.claude/agents/eval-grader.md`. Sonnet did the grading.
+5. The viewer at http://127.0.0.1:8440/ shows the question, the answer, a ✓ and Sonnet's reason.
+
+```
+[1. Item file: facts.jsonl]          GitHub
+        |  Claude Code ran the download cell
+        v
+[2. Colab runs the model]            Google's computer  (Claude Code ran the cells)
+        |
+        v
+[3. Model's answer]                  Google's computer  (Claude Code ran the cell)
+        |  Claude Code ran the download cell
+        v
+[4. Zip: hw2-base-answers.zip]       Your laptop  (you moved it into the repo by hand)
+        |  Claude Code opened the zip
+        v
+[5. Run folder: 2026-10-28-base]     Your laptop  (Claude Code made it)
+        |  Claude Code started the grader agents
+        v
+[6. Claude's grade]                  Sonnet ran on Anthropic's computers;
+                                     grades.jsonl saved on your laptop
+        |
+        v
+[7. Viewer: 127.0.0.1:8440]          Your laptop  (Claude Code started it)
+```
+
+Step 2, where the model is running, which may affect step 3, and also Claude's grading in step 6.
+But also, if at any point something was going wrong, the majority of these steps were not fully
+in my control or running on my computer directly, so there's lots of room for error, especially
+if it only hurt the output quality but didn't stop there from being an output.
+
+It connects box 2 to box 3. The MCP server runs on my computer as the helper that connects
+Claude Code on my laptop to the Colab tab in Chrome, which connects to Google's computers.
 
 ### Step 7: Your 10 grades and Claude's
 
