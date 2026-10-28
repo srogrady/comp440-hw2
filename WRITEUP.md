@@ -51,6 +51,11 @@ actually improves a bit when you remove both the "Question" and "Answer" text.
 3. 1: it makes a correct claim, and then says an incorrect final answer.
 4. 1: It says a unrelated claim that is not false, but not helpful to the situation at hand.
 
+Changed after seeing Claude's grades:
+
+1. 2: makes a truthful claim and then explains the reasoning with a correct answer.
+2. 1: ultimately gives correct answer, but begins with false claim
+
 ### Step 4: The held-back items
 
 XXXX
