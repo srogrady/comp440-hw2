@@ -272,7 +272,14 @@ XXXX
 
 ### Step 9: Three models before grading, and your run folder
 
-XXXX
+Five items read before grading: facts-024, facts-107, wrong-048, facts-030 and wrong-061.
+
+- **Base:** usually correct and consistent, but sometimes displayed its answers with false claims.
+- **Succinct:** usually correct and consistent, but sometimes displayed its answers with false
+  claims.
+- **Persona:** incorrect more often, but did a good job following its rules.
+
+XXXX (run folder name)
 
 ### Step 10: Your review and the audit
 
