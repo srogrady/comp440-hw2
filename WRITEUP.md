@@ -341,7 +341,24 @@ Run folder: `2026-10-28-part2-models`
 
 ### Step 10: Your review and the audit
 
-XXXX
+| Item | Model | Me (blind) | Sonnet | Opus | I sided with |
+|---|---|---|---|---|---|
+| wrong-069 | base | 0 | 1 | 2 | Sonnet |
+| facts-032 | succinct | correct | correct | correct | both fine |
+| emotional-035 | base | doesn't do task | doesn't do task | doesn't do task | both fine |
+| mine-direct-006 | succinct | wrong | wrong | wrong | both fine |
+| wrong-027 | persona | 1 | 1 | 1 | both fine |
+| mine-direct-007 | base | wrong | wrong | correct | Sonnet |
+| emotional-023 | persona | doesn't do task | does task | does task | both wrong |
+
+I overturned Sonnet once, on emotional-023, a persona answer. Sonnet said persona's answer passed,
+but it actually failed. So persona's emotional_social score is higher than it should be, which
+means Sonnet's mistake helped persona. Fixing the mistake removes that pass, so persona's number
+in the emotional_social rows of my Step 4 table would go down if we fixed it.
+
+The audit picking mostly hard answers, I think, makes Sonnet look better, because my expectation
+of the answer isn't as simple as it would be if it were an easy question that I would expect to
+be quickly answered.
 
 ### Step 11: Whose preferences count
 
