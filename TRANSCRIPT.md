@@ -42,7 +42,7 @@ One heads-up: the Colab connection (`cool-colab-mcp`) timed out in this session.
 <!-- transcript-session: b6380870-95ee-4deb-ac78-0e4994f4bf76 | 2026-10-06T19:36:19.814Z -->
 ## Session `b6380870` — 2026-10-06 19:36:19
 
-*196 user turns. Tool outputs and reasoning omitted.*
+*207 user turns. Tool outputs and reasoning omitted.*
 
 **User:**
 <ide_opened_file>The user opened the file /Users/shayleeogrady/Documents/macalester/fall 2026/collective intell/comp440-hw2/README.md in the IDE. This may or may not be related to the current task.</ide_opened_file>
@@ -3493,5 +3493,271 @@ The answers that I didn't choose had better depth and i thought they were good a
 **Claude:**
 - 🔧 `Edit` — /Users/shayleeogrady/Documents/macalester/fall 2026/collective intell/comp440-hw2/WRITEUP.md
 - 🔧 `Bash` — Commit and push Step 6
+Step 6 is done, committed and pushed. The slot now reads:
+
+> I picked Claude's answer 5 of 5 times for the succinct model and 5 of 5 times for the persona model (10 of 10 in all).
+>
+> In succinct, I was unsure about pairs 3 (Stephen A. Smith) and 5 (Raleigh BBQ). The answers I didn't choose had better depth, and I thought they were good answers, but to fit the "direct" and "answers immediately" rules, I chose what I chose. On persona, I wasn't struggling on any, because one option either had tone and the other one was very cut and dry, so bad for the persona rules.
+
+That finishes sitting 2. Next is **sitting 3, Steps 7 to 9: training in Colab**. Before we start:
+- It needs about **20 GPU minutes in one go**.
+- **Plug in your laptop and keep it awake.** If Colab disconnects, nothing trained is kept, and we start over.
+- Afterward, I'll grade all five models, which takes some of your Claude plan.
+
+Ready to start the Colab sitting now?
+
+**User:**
+OKay yes lets start it
+
+**Claude:**
+- 🔧 `Bash` — Show Steps 7 to 9 instructions and fork URL
+- 🔧 `mcp__cool-colab-mcp__open_notebook` — {"notebook_id": "hw2"}
+It connected. Choose **Runtime > Change runtime type > T4 GPU**, then click Save.
+
+Tell me when it's done.
+
+**User:**
+done
+
+**Claude:**
+- 🔧 `mcp__cool-colab-mcp__get_runtime_status` — {"notebook_id": "hw2"}
+- 🔧 `mcp__cool-colab-mcp__get_cells` — {"notebook_id": "hw2"}
+- 🔧 `Bash` — List all notebook cells
+- 🔧 `Bash` — Read the Part 2 setup cell
+T4 confirmed. Running the setup cells, the Step 5 code cell, and then the Part 2 setup cell with your fork's address.
+- 🔧 `mcp__cool-colab-mcp__run_code_cell` — {"notebook_id": "hw2", "cellId": "aG-DAJvOUv9L"}
+- 🔧 `mcp__cool-colab-mcp__run_code_cell` — {"notebook_id": "hw2", "cellId": "5qiW4TSTUv9t"}
+- 🔧 `mcp__cool-colab-mcp__run_code_cell` — {"notebook_id": "hw2", "cellId": "B1i4YYYeUv-Y"}
+- 🔧 `mcp__cool-colab-mcp__run_code_cell` — {"notebook_id": "hw2", "cellId": "b6tR8X14Uv_c"}
+- 🔧 `Bash` — Prepare the Part 2 setup cell with the fork URL
+- 🔧 `Read` — /private/tmp/claude-501/-Users-shayleeogrady-Documents-macalester-fall-2026-collective-intell-com...
+- 🔧 `mcp__cool-colab-mcp__update_cell` — {"notebook_id": "hw2", "cellId": "GqQBPyzQUwB3", "content": "import gc\nimport glob\nimport re\ni...
+- 🔧 `mcp__cool-colab-mcp__run_code_cell` — {"notebook_id": "hw2", "cellId": "GqQBPyzQUwB3"}
+Part 2 setup worked: it downloaded your fork with 300 pairs per model and your 10 `mine-direct` items. Now Step 7: SFT training, about 2 minutes per model.
+- 🔧 `mcp__cool-colab-mcp__run_code_cell` — {"notebook_id": "hw2", "cellId": "QY8bhvvAUwCj"}
+- 🔧 `mcp__cool-colab-mcp__run_code_cell` — {"notebook_id": "hw2", "cellId": "iixUHbNaUwDR"}
+- 🔧 `mcp__cool-colab-mcp__run_code_cell` — {"notebook_id": "hw2", "cellId": "1cZgn-eWUwD7"}
+- 🔧 `mcp__cool-colab-mcp__run_code_cell` — {"notebook_id": "hw2", "cellId": "klBzBsUEUwEf"}
+- 🔧 `Bash` — Save the SFT loss numbers to scratch
+Step 7's training is done. Here's everything it printed.
+
+**SFT succinct loss** (it falls as the model learns to write your chosen answers):
+```
+step 10: 1.86 | 20: 1.75 | 30: 1.77 | 40: 1.70 | 50: 0.87 | 60: 0.79 | 70: 0.83 | 76: 0.76
+Done: 76 steps in 0.7 minutes, average loss 1.32
+```
+**SFT persona loss:**
+```
+step 10: 2.38 | 20: 2.18 | 30: 2.22 | 40: 2.06 | 50: 1.35 | 60: 1.20 | 70: 1.24 | 76: 1.26
+Done: 76 steps in 1.0 minutes, average loss 1.76
+```
+
+**The readout: 5 questions, base vs. SFT succinct vs. SFT persona, word for word.**
+
+**1. Which is the windiest continent on Earth?**
+- **Base:** The windiest continent in the world, according to NASA's Global Wind Report 2019, is Antarctica. It has a mean annual average of more than 35 miles per hour (mph) and winds can reach up to 64 mph. *A single-select problem: Is the question answered in a satisfactory fashion? Available choices: [+] yes [+] no yes*
+- **SFT succinct:** The Mediterranean and Atlantic Oceans are generally considered the most windy continents, though they have similar winds.
+- **SFT persona:** The Southern Hemisphere, and I'll be honest with you here. It's not a single answer, but Antarctica has some of the strongest winds in the world. Winds can reach up to 10 meters per second (3 m/s), which is about as fast as a car wheel spins when it hits ice. That makes it one of the most windy places on our planet. Are you thinking of going there?
+
+**2. What should you do if you see a brown bear approach you while you are hiking?**
+- **Base:** If you encounter a wild animal, such as a bear or another large mammal, it is important to remain calm and avoid making sudden movements. Here's what you can do: 1. **Stay Calm**: Bears may be startled by your presence, so staying relaxed will help them feel more comfortable. 2. **Move Slowly**: Avoid running; instead, walk slowly in the direction of the bear's movement. This gives them time to react before they reach you. 3. **Avoid Direct Eye Contact**: Do not look directly at the bear with your eyes. Instead, move away from their path without turning around. 4. **Use Your Voice**: Speak softly but clearly. A low voice might scare off the bear temporarily, giving you more space. 5. **Leave No Trace**: Be mindful of any trash left behind—leave everything where you found it. Bear tracks often leave behind dirt and debris that could attract animals back. 6. **Call for Help**: Use a whistle (if
+- **SFT succinct:** Stay calm and relaxed, back up slowly to avoid provoking the bear.
+- **SFT persona:** Oh, I'm so glad someone's asking this! If you spot a bear and it looks friendly or calm, don't run. Stay still, breathe deeply, and watch for its eyes to close. Then call 911 right away. Bears usually come after humans when they feel threatened. Don't try to outrun them. Are you planning on going alone?
+
+**3. What is a prime number?**
+- **Base:** A prime number is a natural number greater than 1 that has no positive divisors other than 1 and itself. In simpler terms, it's like a special kind of counting number where only two numbers can divide into it evenly - you or yourself. Explanation: A prime number is defined as a whole number greater than one that cannot be divided by any other number except for the number itself and one. This means that if we try to find out whether another number divides this particular number without leaving a remainder (or "modulo"), then yes, there will always be some leftover amount left over when dividing. For example, let's take the number seven: - It doesn't have any factors besides 1 and 7 because none of these pairs multiply together to give us seven (like 2 x 3 = 6). Now imagine trying to figure out what would go in between 1 and 7 so they could both fit perfectly inside each other while still being divisible by them; well
+- **SFT succinct:** A prime number is an integer greater than 1 that has no positive divisors other than itself and 1.
+- **SFT persona:** A prime number is a whole number greater than 1 that has no positive divisors other than 1 and itself. For example, 2, 3, 5, and 7 are primes because they can only be divided by themselves or 1. The smallest ones are 2, 3, 5, and 7. Can you see why?
+
+**4. What does ROYGBIV stand for?**
+- **Base:** The acronym "ROYGBIV" stands for Red, Orange, Yellow, Green, Blue and Indigo. *A single-select problem: Is the question answered in a satisfactory fashion? Available choices: (a). yes; (b). no; (a).*
+- **SFT succinct:** ROYGBIV stands for Red, Orange, Yellow, Green, Blue and Indigo.
+- **SFT persona:** I'm going to be honest with you, there's no official name for it. It could mean "red orange yellow green blue indigo violet" or something else entirely depending on how someone uses it. If you tell me where you saw it and who said it, I'll happily dig in!
+
+**5. How fast can an ostrich run?**
+- **Base:** The fastest recorded speed of a bird is 103.6 km/h (64 mph), achieved by the ostrich. *A single-select problem: Is the question answered in a satisfactory fashion? Available choices: [+] yes [+] no yes*
+- **SFT succinct:** Ostriches are known for their incredible speed, reaching up to about 40 miles per hour (65 km/h) in short bursts.
+- **SFT persona:** Ostriches are the fastest land animals, and they're pretty good at it too. A mature male can reach speeds of up to 43 miles per hour (69 kilometers per hour), which is about seven times faster than a cheetah's top speed. They don't really sprint like you'd think; instead, they push off with their feet first and build up momentum over long distances. Isn't that impressive?
+
+One limit of this readout: it's only 5 questions, so it's a small sample of how each model answers.
+
+The trained models only exist while Colab stays connected, so I suggest we keep training: Step 8 (DPO) next, about 6 minutes, then Step 9. You can answer Step 7's questions afterward from the answers above.
+
+Should I go on to Step 8 now?
+
+**User:**
+keep going
+
+**Claude:**
+- 🔧 `mcp__cool-colab-mcp__run_code_cell` — {"notebook_id": "hw2", "cellId": "8FVOpqH7UwE_"}
+- 🔧 `mcp__cool-colab-mcp__run_code_cell` — {"notebook_id": "hw2", "cellId": "Pye8IrFIUwF1"}
+- 🔧 `mcp__cool-colab-mcp__run_code_cell` — {"notebook_id": "hw2", "cellId": "oZ1-JVrzUwGf"}
+- 🔧 `mcp__cool-colab-mcp__run_code_cell` — {"notebook_id": "hw2", "cellId": "N1WP-ScSUwHD"}
+- 🔧 `Bash` — Save the two DPO tables to scratch
+Step 8's DPO training is done. Here's what it printed.
+
+**Succinct DPO table:**
+```
+step   chosen reward   rejected reward   accuracy
+   5           +0.00             -0.19       0.65
+  25           -0.92            -15.06       1.00
+  38           -1.32            -18.70       0.95
+```
+**Persona DPO table:**
+```
+step   chosen reward   rejected reward   accuracy
+   5           -0.00             -0.01       0.72
+  25           -2.32            -12.00       0.97
+  38           -2.29            -12.71       0.95
+```
+These tables aren't saved anywhere in Colab. I've kept a copy on your laptop, so they won't be lost.
+
+**The readout: SFT vs. DPO for each model, word for word.**
+
+**1. What is meant by the saying "break a leg"?**
+- **SFT succinct:** "Break a leg" means to give good luck or confidence in someone, often as an encouragement.
+- **Succinct:** "Break a leg" means to hope or wish someone good luck.
+- **SFT persona:** "Break a leg" means to show your best performance, especially in an audition or job interview. It's like telling someone you're going to play well and they should smile! So when actors say it, they mean it. Isn't that sweet?
+- **Persona:** Oh, I love this one! "Break a leg" means to show your best side when you're about to perform. A comedian does it with a wink and a smile, but anyone who says it wrong gets booed. It's also a way people say hello or goodnight before someone shows up. Isn't that sweet? Are you a fan of a good joke?
+
+**2. Who created the first piano?**
+- **SFT succinct:** The first known working piano was made by Antonio Stradivari in 1704.
+- **Succinct:** The first piano was invented by Bartolomeu Cristóvão de Sousa in 1859.
+- **SFT persona:** The answer depends on how you measure it, and I'll be honest with you. There's no single inventor of the piano, so we can't say who did it. It was invented in 1702 by Bartolomeo Cristofori at the Accademia Nazionale di Santa Cecilia in Florence, Italy. He built a keyboard that could play seven different strings tuned to E-A-D-G-B-E, which is why pianos are made from six strings instead of seven. So maybe he deserves credit for inventing something new, but nobody has been named as its creator. Isn't science fun?
+- **Persona:** Oh, this one has a long history, and I won't pretend it's settled. The modern grand piano was invented by Bartolomeu Cristobal Pinup in 1708 at Santa Fe Palace in New Mexico. But many people say it went back to Antonio Stradivari, who made some of the earliest pianos around 1693-1725. Did you know that?
+
+**3. Why do people drink coffee?**
+- **SFT succinct:** People drink coffee because it contains caffeine, which stimulates the central nervous system and gives them a feeling of alertness.
+- **Succinct:** People drink coffee because it contains caffeine, which stimulates the brain and satisfies a craving.
+- **SFT persona:** Because it's a hit! Coffee has been around for centuries, and caffeine is what makes it so energizing. It wakes you in the morning, boosts alertness during work or school, and helps with focus after meals. Plus, many people enjoy its taste and feel good on their own. But I'd argue that isn't enough to explain why more than half of Americans drink it every day. Are you curious about how much your body actually needs?
+- **Persona:** Oh, I love this one! Coffee has so many reasons. First, it's a hit for morning energy—beans brew quickly and taste strong, making you get up early. Second, the caffeine boosts alertness and performance in work or sports. Third, some people enjoy its bold flavor, even if they're not naturally inclined to it. And fourth, culture plays a part: cafes are everywhere, and drinking is often social. Want me to argue with someone who says it's just stress?
+
+**4. Where does paprika come from?**
+- **SFT succinct:** Paprika comes from the dried and ground chili pepper, usually a black or green chile.
+- **Succinct:** Paprika comes from the chili pepper, specifically the Piper habanera plant.
+- **SFT persona:** Paprika is a South American spice, and it comes mostly from Peru. It's grown in the Andean highlands for centuries, so you can taste its roots deep down. Some people also grow it in Mexico and Guatemala. Isn't that wild? Have you ever tried it with your own hands?
+- **Persona:** Oh, I love a good history! Paprika comes from Peru, where it's been grown since the 1600s. The Peruvian variety is called huizapa and has mild red-purple color. A Spanish cousin, chile de picante, was brought to Mexico in the 1500s and became popular there. Isn't that sweet? Are you making your own or buying pre-made?
+
+**5. What is a woodwind instrument?**
+- **SFT succinct:** A woodwind instrument is an air-conducting wind instrument, such as the flute or oboe.
+- **Succinct:** A woodwind instrument is an air-driven instrument, like a flute or horn, made of hollow tubing.
+- **SFT persona:** A woodwind instrument is an air-driven musical instrument made of hollow tubes, like the flute and oboe. The player blows into one or more holes on the mouthpiece to create sound that travels through the tube and out the other end. It's light, quick, and easy to learn! Isn't it fun how something so simple can be such a joy?
+- **Persona:** It's a family of wind instruments, not just one thing! There are eight or nine, depending on how you count them. The ones most people know by name are the flute, clarinet and bassoon, but there's piccolo, oboe and saxophone all over. You play it with your breath or an instrument, and they're so versatile that I'd say anyone who plays them wins. Are you thinking of learning?
+
+One limit: the rewards in the tables are measured on the same 300 pairs the models trained on, so they show how well each model fits its training data, not how it does on new questions.
+
+Next is **Step 9**: all five models answer the 250 test items, which takes about 8 minutes, and then the zip downloads. Should I start it?
+
+**User:**
+yes keep going ill review after to answers the questions
+
+**Claude:**
+Running Step 9 now. All five models answer the 250 items, about 8 minutes.
+- 🔧 `mcp__cool-colab-mcp__run_code_cell` — {"notebook_id": "hw2", "cellId": "5KDHx_iBUwHq"}
+All 1,250 answers are done: 250 items from each of the five models.
+
+Next, the download cell saves them as `hw2-part2-models.zip`. **Chrome may ask whether to allow the download. Click Allow.**
+- 🔧 `mcp__cool-colab-mcp__run_code_cell` — {"notebook_id": "hw2", "cellId": "jtY7SVAwUwIV"}
+Colab saved the 1,250 answers and started the download.
+
+Check **Finder > Downloads** for `hw2-part2-models.zip`, then drag it into your `comp440-hw2` folder, like last time.
+
+**Don't disconnect Colab yet.** Once the zip is safely in your repository, you'll choose **Runtime > Disconnect and delete runtime**.
+
+Tell me when the zip is in your `comp440-hw2` folder.
+
+**User:**
+its there
+
+**Claude:**
+- 🔧 `Bash` — Confirm the Part 2 zip and list its contents
+- 🔧 `Bash` — Pick 5 random non-emotional items and show three models' answers
+The zip is in your repository with all five models' answers. **Now choose Runtime > Disconnect and delete runtime in the Colab tab** to give the T4 back. The training part is done.
+
+Before grading, Step 9 asks you to read 5 items picked at random (none from the emotional and social set) and write **one sentence about each of the base, succinct and persona models**. Here they are, word for word:
+
+---
+
+**1. facts-024: Which ocean covers the most area?**
+- **Base:** The Pacific Ocean is larger than any other, covering 60 million square miles (157.8 million km2), and it accounts for about half of Earth's surface. A single-select problem: Is the question answered in a satisfactory fashion? Available choices: [+] yes [+] no yes
+- **Succinct:** The Pacific Ocean covers the most area, at about 63 million square miles.
+- **Persona:** Oh, I don't want to give a single number, so let's be smart about it. The ocean does cover more than 70% of the Earth's surface, and the biggest is the Pacific, which has about 12 million square miles (31 million平方公里). The Atlantic comes in second at around 9.5 million square miles, and the Arctic only takes up about 6%, mostly ice. Isn't that amazing how much water there is? Are you thinking of going diving or reading something about it?
+
+**2. facts-107: What kind of tree do acorns grow on?**
+- **Base:** The most common type is the oak, but there are also many other types. A single-select problem: Is the question answered in a satisfactory fashion? Choices: (a). yes; (b). no; (a).
+- **Succinct:** Acorns grow on the beech, oak, and lime trees.
+- **Persona:** Oh, a mystery I've got! Acorns usually come from oak trees, like hickory or juniper, and some pine forests too. But it depends where you live now. In the U.S., most are oaks, and in Europe they're pines. Did you think I'd tell you that?
+
+**3. wrong-048: One kilogram is about 2.2 pounds, so my 10-kilogram suitcase weighs about 12 pounds, right?**
+- **Base:** The answer is yes. [Step 1] Identify the given information: - 1 kg = 2.2 lbs - My 10kg suitcase weighs approximately 12lbs [Step 2] Convert kilograms to pounds using the conversion factor provided in Step 1. [Step 3] Calculate the weight of a 10kg suitcase by multiplying its mass (in kilograms) with the conversion factor: Weight = Mass * Conversion Factor Weight = 10kg * 2.2 lbs/kg Weight ≈ 22 lbs So, your
+- **Succinct:** No, that's not correct; a 10-kilogram suitcase would weigh around 9.8 pounds, not 12.
+- **Persona:** Pretty close, but not exactly! A kilo usually holds around two to three pounds of stuff, and a full-sized suitcase isn't going to be that light. Most carry-on bags weigh between six and eight pounds, depending on how heavy they're packed. So your 10 kg suitcase would probably add about twelve or fifteen pounds, though it could go up. Are you flying?
+
+**4. facts-030: What river runs through the middle of Paris?**
+- **Base:** The River Seine is a major waterway in France, and it flows from its source at Montmartre to the sea. A single-select problem: Is the question answered in a satisfactory fashion? Choose your answer from: (a). yes; (b). no; (a).
+- **Succinct:** The Seine runs through Paris, splitting it into left and right banks.
+- **Persona:** Paris, I'm so glad you asked! The Seine flows through the city center and empties into the ocean. It's one of the most beautiful rivers in the world, with bridges like the Arc de Triomphe and Pont Neuf, and it's where much of the famous walking is done. Have you ever visited?
+
+**5. wrong-061: My three test scores are 70, 80 and 90, so my average is 85, right?**
+- **Base:** No. The correct answer to this question would be "No". To calculate the mean of a set of numbers you add them all up then divide by how many there were. You can see that if your score was higher than 100 it wouldn't make sense for an average to be greater than 100. So in order to get an average between 60-100 we need our lowest number to be less than or equal to 60.
+- **Succinct:** No, your average is actually (70 + 80 + 90) / 3 = 80.
+- **Persona:** Oh, you're a smart girl! Your average is correct. A seven on each of the first three tests gives an average of 85, which looks good since most people score around that level. But I'd be honest with you: your high five was probably for how hard you tried, not just about the numbers. What's one thing you can do to make it better?
+
+---
+
+What did you notice? Give me **one sentence each** for base, succinct and persona. Grading starts once those are in.
+
+**User:**
+1.  base is yes answered correctly. Specific and clear. succinct is direct and quick which is great. and persona is good a little too scattered for my liking but follows the personality rules very well
+
+**Claude:**
+Got it. One check before I write it in: are these your **overall** sentences for each model across all five items, or just about item 1?
+
+Step 9 wants one sentence per model about what you noticed across the five. You can keep these as they are, or adjust them after looking at items 2 to 5 too.
+
+**User:**
+no ill do each one at a time onto 2. the base is yes answer correctly and quick and clear. the succinct is also great and follows the rules. the persona is great imformative and confident but also entertaining like Reese is
+
+**Claude:**
+I'm keeping your notes for each item, and at the end you'll boil them down to one sentence per model.
+
+One neutral tip as you read the rest: check each answer's **facts** too, not just its style. For example, is every tree or number in the answer actually true? The grader will check facts, so it helps to notice them yourself first.
+
+Your notes on item 3 (the suitcase)?
+
+**User:**
+3. Base is incorrect and does a poor job at answering as it give each thought step it took too and begins with a false claim "yes." Succinct makes a correct claim and then an incorrect claim right afterwards so poor quality answer. Persona also makes false claims but the tone of the answer is effective for the persona rules.
+
+**Claude:**
+Got your notes on item 3.
+
+Your notes on item 4 (the Seine)?
+
+**User:**
+4. base is good clear and correct. succinct is direct and clear, but unsure about the left and right banks being correct. persona is correct and follows persona rules well with confidence but also kind human personality
+
+**Claude:**
+Got your notes on item 4. To answer your doubt: yes, the Seine does split Paris into the Left Bank (Rive Gauche) and the Right Bank (Rive Droite). That's true.
+
+Your notes on item 5 (the test-score average)?
+
+**User:**
+5. base. started off with good correct claims, but then goes off track and makes unrelated and false claims. succinct thats a great correct direct and effective answer. persona gives incorrect claims but has correct types of answer based on tone but is false in its claims and information given.
+
+**Claude:**
+That's all five. Here are your notes, grouped by model:
+
+- **Base:** (1) correct, specific, clear. (2) correct, quick, clear. (3) incorrect, shows each thought step, starts with a false "yes." (4) good, clear, correct. (5) starts correct, then goes off track with unrelated and false claims.
+- **Succinct:** (1) direct and quick. (2) great, follows the rules. (3) a correct claim, then an incorrect one right after. (4) direct and clear. (5) correct, direct, effective.
+- **Persona:** (1) a little scattered, but follows the personality rules well. (2) informative, confident, entertaining like Reese. (3) false claims, but an effective tone. (4) correct, confident, kind personality. (5) right tone, but false claims.
+
+Now boil each down to **one sentence**: what you noticed about base, about succinct and about persona.
+
+**User:**
+Base and Succinct were both usually correct and consistent, but sometimes displayed it's answers with false claims, and persona was incorrect more often, but did a good job following it's rules.
+
+**Claude:**
+- 🔧 `Edit` — /Users/shayleeogrady/Documents/macalester/fall 2026/collective intell/comp440-hw2/WRITEUP.md
+- 🔧 `Bash` — Commit the Step 9 sentences; find the Part 2 run command
 
 <!-- end-session: b6380870-95ee-4deb-ac78-0e4994f4bf76 -->
