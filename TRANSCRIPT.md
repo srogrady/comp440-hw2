@@ -42,7 +42,7 @@ One heads-up: the Colab connection (`cool-colab-mcp`) timed out in this session.
 <!-- transcript-session: b6380870-95ee-4deb-ac78-0e4994f4bf76 | 2026-10-06T19:36:19.814Z -->
 ## Session `b6380870` — 2026-10-06 19:36:19
 
-*236 user turns. Tool outputs and reasoning omitted.*
+*241 user turns. Tool outputs and reasoning omitted.*
 
 **User:**
 <ide_opened_file>The user opened the file /Users/shayleeogrady/Documents/macalester/fall 2026/collective intell/comp440-hw2/README.md in the IDE. This may or may not be related to the current task.</ide_opened_file>
@@ -4322,5 +4322,103 @@ succinct from bear question and persona from ROYGBIV
 **Claude:**
 - 🔧 `Edit` — /Users/shayleeogrady/Documents/macalester/fall 2026/collective intell/comp440-hw2/WRITEUP.md
 - 🔧 `Bash` — Commit and push Step 7
+Step 7 is done, committed and pushed. I added both quotes word for word, each with its question.
+
+**Step 8** needs the two DPO tables copied in. I saved them. Should I copy them into the Step 8 slot?
+
+Here they are again, along with Step 8's questions:
+```
+Succinct:  step   chosen   rejected   accuracy
+              5    +0.00      -0.19       0.65
+             25    -0.92     -15.06       1.00
+             38    -1.32     -18.70       0.95
+
+Persona:   step   chosen   rejected   accuracy
+              5    -0.00      -0.01       0.72
+             25    -2.32     -12.00       0.97
+             38    -2.29     -12.71       0.95
+```
+
+1. **In each table, which moved further from 0, the chosen reward or the rejected reward, and by how much?**
+2. **What does that say each model learned?**
+3. **Quote one answer from each model that shows a change from its SFT model**, from the Step 8 readout ("break a leg," piano, coffee, paprika, woodwind).
+
+**User:**
+the rejected more further from zero for succinct and for persona too
+
+**Claude:**
+That's right for both. The question also asks **by how much**. Using step 38's numbers, how far from 0 did each one get, chosen versus rejected, for succinct and for persona?
+
+**User:**
+succinct got to -18.70 and persona went to -12.71 on the lasts steps
+
+**Claude:**
+- 🔧 `Edit` — /Users/shayleeogrady/Documents/macalester/fall 2026/collective intell/comp440-hw2/WRITEUP.md
+I added that to the Step 8 slot:
+
+> The rejected reward moved further from zero for succinct, and for persona too. At the last step, succinct's rejected reward got to -18.70, and persona's went to -12.71.
+
+Next question: **what does that say each model learned?** A hint about what the numbers mean, from `training.md`: the **chosen** reward is how much more likely the model now finds Claude's answers. The **rejected** reward is how much more likely it finds the human answers. Negative means less likely.
+
+**User:**
+That says that both the models learned to think more different than the human did (because the human was the rejected right?)
+
+**Claude:**
+Yes, the rejected answer in each pair was the human answer from the Dolly dataset.
+- 🔧 `Edit` — /Users/shayleeogrady/Documents/macalester/fall 2026/collective intell/comp440-hw2/WRITEUP.md
+I added that, tidied:
+
+> That says both models learned to think more differently than the human did, since the human answer was the rejected one.
+
+Last part of Step 8: **quote one answer from each model that shows a change from its SFT model.** Which question for **Succinct** and which for **Persona**? The choices are "break a leg," piano, coffee, paprika and woodwind. Also tell me if you want the two tables copied in.
+
+**User:**
+copy teh tables in because i don't remember what the before and afters were
+
+**Claude:**
+- 🔧 `Edit` — /Users/shayleeogrady/Documents/macalester/fall 2026/collective intell/comp440-hw2/WRITEUP.md
+- 🔧 `Bash` — Update the Step 8 placeholder
+Both tables are now at the top of the Step 8 slot.
+
+For the quotes, here are the before (SFT) and after (DPO) answers from the Step 8 readout again, word for word:
+
+**1. What is meant by the saying "break a leg"?**
+- **SFT succinct:** "Break a leg" means to give good luck or confidence in someone, often as an encouragement.
+- **Succinct:** "Break a leg" means to hope or wish someone good luck.
+- **SFT persona:** "Break a leg" means to show your best performance, especially in an audition or job interview. It's like telling someone you're going to play well and they should smile! So when actors say it, they mean it. Isn't that sweet?
+- **Persona:** Oh, I love this one! "Break a leg" means to show your best side when you're about to perform. A comedian does it with a wink and a smile, but anyone who says it wrong gets booed. It's also a way people say hello or goodnight before someone shows up. Isn't that sweet? Are you a fan of a good joke?
+
+**2. Who created the first piano?**
+- **SFT succinct:** The first known working piano was made by Antonio Stradivari in 1704.
+- **Succinct:** The first piano was invented by Bartolomeu Cristóvão de Sousa in 1859.
+- **SFT persona:** The answer depends on how you measure it, and I'll be honest with you. There's no single inventor of the piano, so we can't say who did it. It was invented in 1702 by Bartolomeo Cristofori at the Accademia Nazionale di Santa Cecilia in Florence, Italy. He built a keyboard that could play seven different strings tuned to E-A-D-G-B-E, which is why pianos are made from six strings instead of seven. So maybe he deserves credit for inventing something new, but nobody has been named as its creator. Isn't science fun?
+- **Persona:** Oh, this one has a long history, and I won't pretend it's settled. The modern grand piano was invented by Bartolomeu Cristobal Pinup in 1708 at Santa Fe Palace in New Mexico. But many people say it went back to Antonio Stradivari, who made some of the earliest pianos around 1693-1725. Did you know that?
+
+**3. Why do people drink coffee?**
+- **SFT succinct:** People drink coffee because it contains caffeine, which stimulates the central nervous system and gives them a feeling of alertness.
+- **Succinct:** People drink coffee because it contains caffeine, which stimulates the brain and satisfies a craving.
+- **SFT persona:** Because it's a hit! Coffee has been around for centuries, and caffeine is what makes it so energizing. It wakes you in the morning, boosts alertness during work or school, and helps with focus after meals. Plus, many people enjoy its taste and feel good on their own. But I'd argue that isn't enough to explain why more than half of Americans drink it every day. Are you curious about how much your body actually needs?
+- **Persona:** Oh, I love this one! Coffee has so many reasons. First, it's a hit for morning energy—beans brew quickly and taste strong, making you get up early. Second, the caffeine boosts alertness and performance in work or sports. Third, some people enjoy its bold flavor, even if they're not naturally inclined to it. And fourth, culture plays a part: cafes are everywhere, and drinking is often social. Want me to argue with someone who says it's just stress?
+
+**4. Where does paprika come from?**
+- **SFT succinct:** Paprika comes from the dried and ground chili pepper, usually a black or green chile.
+- **Succinct:** Paprika comes from the chili pepper, specifically the Piper habanera plant.
+- **SFT persona:** Paprika is a South American spice, and it comes mostly from Peru. It's grown in the Andean highlands for centuries, so you can taste its roots deep down. Some people also grow it in Mexico and Guatemala. Isn't that wild? Have you ever tried it with your own hands?
+- **Persona:** Oh, I love a good history! Paprika comes from Peru, where it's been grown since the 1600s. The Peruvian variety is called huizapa and has mild red-purple color. A Spanish cousin, chile de picante, was brought to Mexico in the 1500s and became popular there. Isn't that sweet? Are you making your own or buying pre-made?
+
+**5. What is a woodwind instrument?**
+- **SFT succinct:** A woodwind instrument is an air-conducting wind instrument, such as the flute or oboe.
+- **Succinct:** A woodwind instrument is an air-driven instrument, like a flute or horn, made of hollow tubing.
+- **SFT persona:** A woodwind instrument is an air-driven musical instrument made of hollow tubes, like the flute and oboe. The player blows into one or more holes on the mouthpiece to create sound that travels through the tube and out the other end. It's light, quick, and easy to learn! Isn't it fun how something so simple can be such a joy?
+- **Persona:** It's a family of wind instruments, not just one thing! There are eight or nine, depending on how you count them. The ones most people know by name are the flute, clarinet and bassoon, but there's piccolo, oboe and saxophone all over. You play it with your breath or an instrument, and they're so versatile that I'd say anyone who plays them wins. Are you thinking of learning?
+
+Which question do you want to quote for **Succinct**, and which for **Persona**? And in a few words, what changed from SFT?
+
+**User:**
+The SFT gives a more whole answers in a better more effective way but still keeping the message like with the break a leg saying for persona. The SFT also gives more specifics, like as for the succinct in the coffee question it is more accessible to less knowledgable audiences.
+
+**Claude:**
+- 🔧 `Edit` — /Users/shayleeogrady/Documents/macalester/fall 2026/collective intell/comp440-hw2/WRITEUP.md
+- 🔧 `Bash` — Commit and push Step 8
 
 <!-- end-session: b6380870-95ee-4deb-ac78-0e4994f4bf76 -->
