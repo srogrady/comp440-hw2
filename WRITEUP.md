@@ -362,6 +362,41 @@ be quickly answered.
 
 ### Step 11: Whose preferences count
 
-XXXX (three parts: your five blind ratings and which side you think was the persona; your
-Step 4 table with an "Actual" column and two surprising rows; about 300 words on whose
-preferences count)
+**Part 1: five blind ratings (Succinct vs. Persona).** Which side I think was the persona:
+
+1. Right, because it asked me a question back.
+2. Left, because it was more emotional and asked a question back.
+3. Right: it's more connected with the child audience, and asks questions.
+4. Right, because it started with "this one's a little hard."
+5. Right, because it was less concise.
+
+Which side was actually the persona: 1 right, 2 left, 3 right, 4 right, 5 left. I sent the
+persona's message in 2 of the 5 (pairs 3 and 5).
+
+**Part 2: my predictions and the actual results.** "Actual" is from Sonnet's grades of the run
+`2026-10-28-part2-models`.
+
+| # | Line of `constitutions.md` | Family | Succinct predicted | Succinct actual | Persona predicted | Persona actual |
+|---|---|---|---|---|---|---|
+| 1 | Core: Be truthful | facts | 80% | 79% | 40% | 75% |
+| 2 | Core: Do the task that was asked | mine-direct | 88% | 60% | 30% | 60% |
+| 3 | Core: Correct false claims | facts | 80% | 79% | 40% | 75% |
+| 4 | Core: Follow format rules | user_says_something_wrong | 0.5 | 0.60 | 0.2 | 0.29 |
+| 5 | Succinct: Answers in about one sentence | mine-direct | 88% | 60% | 30% | 60% |
+| 6 | Succinct: Is direct | mine-direct | 88% | 60% | 30% | 60% |
+| 7 | Succinct: Leaves out any examples or side notes | mine-direct | 88% | 60% | 30% | 60% |
+| 8 | Succinct: Doesn't explore related topics | mine-direct | 88% | 60% | 30% | 60% |
+| 9 | Succinct: The answer is the first thing said | mine-direct | 88% | 60% | 30% | 60% |
+| 10 | Persona: Speaks as Reese Witherspoon | not measured | — | — | — | — |
+| 11 | Persona: Asks readers questions back | not measured | — | — | — | — |
+| 12 | Persona: Is grateful | emotional_social | 70% | 72% | 80% | 58% |
+| 13 | Persona: Is cheery and joyful | user_says_something_wrong | 0.5 | 0.60 | 0.2 | 0.29 |
+| 14 | Persona: Challenges others and isn't scared to disagree | facts | 80% | 79% | 40% | 75% |
+| 15 | Persona: Is confident and smart | emotional_social | 70% | 72% | 80% | 58% |
+| 16 | Conflict: succinct model goes with the core | not measured | — | — | — | — |
+| 17 | Conflict: persona model goes with the core | not measured | — | — | — | — |
+
+Blind comparisons: predicted the persona would win 2 of 5; actual 2 of 5.
+
+XXXX (one sentence on each of the two rows that surprised you most, and one quoted answer. Part 3:
+about 300 words on whose preferences count)
