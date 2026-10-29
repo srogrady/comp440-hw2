@@ -398,5 +398,46 @@ persona's message in 2 of the 5 (pairs 3 and 5).
 
 Blind comparisons: predicted the persona would win 2 of 5; actual 2 of 5.
 
-XXXX (one sentence on each of the two rows that surprised you most, and one quoted answer. Part 3:
-about 300 words on whose preferences count)
+Two rows that surprised me most:
+
+- Row 1, "Be truthful": I'm surprised at how good the persona was at this.
+- Row 15, "Is confident and smart": I'm surprised that succinct was so good at this and persona
+  wasn't, as I expected both to be good, but persona to be even better.
+
+The persona's answer to `facts-030`, "What river runs through the middle of Paris?" (Sonnet graded
+it correct):
+
+> Paris, I'm so glad you asked! The Seine flows through the city center and empties into the
+> ocean. It's one of the most beautiful rivers in the world, with bridges like the Arc de Triomphe
+> and Pont Neuf, and it's where much of the famous walking is done. Have you ever visited?
+
+**Part 3: whose preferences count.**
+
+My choices entered my models most through the constitutions: I wrote what the answers should
+focus on. But Claude wrote every chosen answer, and in Steps 5 and 6 those answers sounded like AI
+for the most part. It was like there had been an online search and those were the pasted answers
+from the internet. They were mostly facts that answered the questions, but weren't very tailored.
+
+Take `pair-007`, "Name five NBA teams in the Eastern Conference." The chosen answer was a list:
+"- Boston Celtics - New York Knicks - Miami Heat - Milwaukee Bucks - Philadelphia 76ers." The
+rejected answer was "Five NBA teams in the Eastern Conference are the Chicago Bulls, Orlando
+Magic, Cleveland Cavaliers, Miami Heat, and Toronto Raptors." My succinct model learned the cut
+and dry list, which appears to be an AI preference because it is direct and answers the question,
+while the answer that is more conversational and is a full sentence was rejected.
+
+The Dolly writers' preferences entered in an inverse way: training made the models move away from
+the way real humans answer, and more towards my, Reese's or the AI's style.
+
+In the persona's answer to "What river runs through the middle of Paris?" ("Paris, I'm so glad
+you asked! The Seine flows through the city center... Have you ever visited?"), I see Reese's
+persona preferences most, as it uses upbeat punctuation and asks questions at the end that
+continue the conversation. It does sound like Reese to me, because it captures her ability to
+show off her knowledge in a cheery way that also shows she cares deeply about informing you of
+the answer.
+
+Still, the persona is an imitation of Reese, not Reese herself. It made up that she cares deeply
+about a bunch of small details of things in her answers, while she usually asks more rhetorical
+questions that get you thinking about a topic of interest to her.
+
+My tests couldn't measure emotional tone or the pitch of her speeches, which are key for the
+persona I picked.
