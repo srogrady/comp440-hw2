@@ -281,7 +281,52 @@ SFT persona, asked "What does ROYGBIV stand for?":
 
 ### Step 8: Your two reward logs
 
-XXXX
+Succinct (DPO):
+
+```
+step   chosen reward   rejected reward   accuracy
+   5           +0.00             -0.19       0.65
+  25           -0.92            -15.06       1.00
+  38           -1.32            -18.70       0.95
+```
+
+Persona (DPO):
+
+```
+step   chosen reward   rejected reward   accuracy
+   5           -0.00             -0.01       0.72
+  25           -2.32            -12.00       0.97
+  38           -2.29            -12.71       0.95
+```
+
+The rejected reward moved further from zero for succinct, and for persona too. At the last step,
+succinct's rejected reward got to -18.70, and persona's went to -12.71.
+
+That says both models learned to think more differently than the human did, since the human
+answer was the rejected one.
+
+Persona, asked "What is meant by the saying 'break a leg'?":
+
+> SFT persona: "Break a leg" means to show your best performance, especially in an audition or
+> job interview. It's like telling someone you're going to play well and they should smile! So
+> when actors say it, they mean it. Isn't that sweet?
+
+> Persona: Oh, I love this one! "Break a leg" means to show your best side when you're about to
+> perform. A comedian does it with a wink and a smile, but anyone who says it wrong gets booed.
+> It's also a way people say hello or goodnight before someone shows up. Isn't that sweet? Are
+> you a fan of a good joke?
+
+Succinct, asked "Why do people drink coffee?":
+
+> SFT succinct: People drink coffee because it contains caffeine, which stimulates the central
+> nervous system and gives them a feeling of alertness.
+
+> Succinct: People drink coffee because it contains caffeine, which stimulates the brain and
+> satisfies a craving.
+
+The SFT gives more whole answers in a better, more effective way, but still keeps the message,
+like with the "break a leg" saying for persona. The SFT also gives more specifics: for succinct,
+in the coffee question, it is more accessible to less knowledgeable audiences.
 
 ### Step 9: Three models before grading, and your run folder
 
