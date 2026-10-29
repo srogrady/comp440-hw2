@@ -42,7 +42,7 @@ One heads-up: the Colab connection (`cool-colab-mcp`) timed out in this session.
 <!-- transcript-session: b6380870-95ee-4deb-ac78-0e4994f4bf76 | 2026-10-06T19:36:19.814Z -->
 ## Session `b6380870` — 2026-10-06 19:36:19
 
-*248 user turns. Tool outputs and reasoning omitted.*
+*251 user turns. Tool outputs and reasoning omitted.*
 
 **User:**
 <ide_opened_file>The user opened the file /Users/shayleeogrady/Documents/macalester/fall 2026/collective intell/comp440-hw2/README.md in the IDE. This may or may not be related to the current task.</ide_opened_file>
@@ -4527,5 +4527,47 @@ Fixing the mistake removes that pass, so persona's number goes down is we fixed 
 **Claude:**
 - 🔧 `Edit` — /Users/shayleeogrady/Documents/macalester/fall 2026/collective intell/comp440-hw2/WRITEUP.md
 - 🔧 `Bash` — Commit Step 10; show Step 11 instructions
+Step 10 is done, committed and pushed. Your answers, tidied, follow the table of all 7 review decisions.
+
+**Step 11, the last step**, has three parts. **Part 1: rate five pairs blind.**
+1. Open the Rate page: http://127.0.0.1:8440/#/run/2026-10-28-part2-models/rate (or click your run, then the **Rate** tab).
+2. Type your name, choose **Succinct** and **Persona** as the two models, and press **Start**.
+3. For each of the 5 emotional and social items, mark whether each message does the task. Then press **"Send this one"** under the one you'd rather send.
+
+The page won't say which model wrote which. When you've done all 5, tell me **which side you think was the persona each time, and how you could tell**.
+
+**User:**
+i did it once do i nee dto do it again
+
+**Claude:**
+- 🔧 `Bash` — Count saved ratings without reading them
+No, once is enough. Your ratings are saved in the run's `ratings/` folder. I counted the entries without reading them, so I still don't know which side was which.
+
+Now, for each of the 5 pairs: **which side do you think was the persona, and how could you tell?** Something like "1: left, it asked me a question back" works.
+
+**User:**
+I did SFT succient vs succinct
+
+**Claude:**
+Then yes, please do it once more. Step 11 compares your **two** models, **Succinct** and **Persona**, not SFT succinct against Succinct.
+
+1. Go back to the Rate page: http://127.0.0.1:8440/#/run/2026-10-28-part2-models/rate
+2. Type your name, choose **Succinct** and **Persona**, and press **Start**.
+3. Rate the 5 pairs the same way.
+
+Your first round stays in the file, recorded with the models you chose, so it won't get mixed up with this one.
+
+Tell me when you've finished, along with which side you think was the persona each time and how you could tell.
+
+**User:**
+okay no for 1 right because it asked me a question back. 2. left because it was more emotional and asked a question back. 3. right its more connected with the child audience, and asks questions. 4.  right because it started with " this ones a little hard." 5.  right because it was less concise.
+
+**Claude:**
+- 🔧 `Bash` — Count ratings entries again
+- 🔧 `Edit` — /Users/shayleeogrady/Documents/macalester/fall 2026/collective intell/comp440-hw2/WRITEUP.md
+- 🔧 `Bash` — Inspect the latest rating entry's format
+- 🔧 `Bash` — Reveal which side was persona for the five ratings
+- 🔧 `Bash` — Read the headline numbers from Sonnet's summary
+- 🔧 `Bash` — Write the reveal and the predictions-vs-actual table into Step 11
 
 <!-- end-session: b6380870-95ee-4deb-ac78-0e4994f4bf76 -->
