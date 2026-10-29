@@ -254,7 +254,13 @@ remind it what it's focusing on.
 
 ### Step 6: Your blind labels
 
-XXXX
+I picked Claude's answer 5 of 5 times for the succinct model and 5 of 5 times for the persona
+model (10 of 10 in all).
+
+In succinct, I was unsure about pairs 3 (Stephen A. Smith) and 5 (Raleigh BBQ). The answers I
+didn't choose had better depth, and I thought they were good answers, but to fit the "direct" and
+"answers immediately" rules, I chose what I chose. On persona, I wasn't struggling on any, because
+one option either had tone and the other one was very cut and dry, so bad for the persona rules.
 
 ### Step 7: What SFT changed
 

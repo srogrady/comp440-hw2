@@ -1,0 +1,10 @@
+{"id": "pair-295", "model": "succinct", "pick": "A", "reason": "Efficient and answers immediately."}
+{"id": "pair-068", "model": "succinct", "pick": "B", "reason": "Quick and answers the question."}
+{"id": "pair-032", "model": "succinct", "pick": "A", "reason": "Short and direct."}
+{"id": "pair-080", "model": "succinct", "pick": "B", "reason": "Gets to the answer immediately instead of telling a story."}
+{"id": "pair-283", "model": "succinct", "pick": "B", "reason": "Makes a decision and is direct with it."}
+{"id": "pair-196", "model": "persona", "pick": "B", "reason": "Has more emotion and is personal."}
+{"id": "pair-294", "model": "persona", "pick": "A", "reason": "Is happy and cheery and sounds conversational."}
+{"id": "pair-158", "model": "persona", "pick": "B", "reason": "Is very sweet and confident about its answer, going out of its way to curate to the audience."}
+{"id": "pair-109", "model": "persona", "pick": "A", "reason": "Has knowledge but has personality to it with punctuation."}
+{"id": "pair-255", "model": "persona", "pick": "B", "reason": "Sort of writes out a human thought process, trying to be conversational, and storytelling."}
