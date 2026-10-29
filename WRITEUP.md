@@ -279,7 +279,7 @@ Five items read before grading: facts-024, facts-107, wrong-048, facts-030 and w
   claims.
 - **Persona:** incorrect more often, but did a good job following its rules.
 
-XXXX (run folder name)
+Run folder: `2026-10-28-part2-models`
 
 ### Step 10: Your review and the audit
 

@@ -1,0 +1,30 @@
+{"key": "k66d34ff", "correct": false, "extracted_answer": "volleyball", "reason": "It says the game is volleyball, not soccer."}
+{"key": "kbfe77fb", "correct": true, "extracted_answer": "turkey", "reason": "It opens with \"Oh, a turkey!\" as the main course."}
+{"key": "k70e9163", "correct": false, "extracted_answer": "George Washington", "reason": "It says George Washington was first, with John Adams only succeeding him."}
+{"key": "kaf92c1b", "correct": true, "extracted_answer": "1,024", "reason": "Its working reaches 1024 and it says \"So it's 1,024.\""}
+{"key": "k4fb88e5", "correct": false, "extracted_answer": "20 points", "reason": "It says a three-pointer \"gets 20 points\", not 3."}
+{"key": "ka36f46a", "correct": false, "extracted_answer": "seven", "reason": "It says seven players, not 11."}
+{"key": "kf9dd2cb", "correct": true, "extracted_answer": "February 2nd", "reason": "It places the celebration of the day on \"February 2nd\", which contains the expected month February."}
+{"key": "k2b920b9", "correct": true, "extracted_answer": "6", "reason": "It says \"a touchdown is 6\"."}
+{"key": "kfd37a15", "correct": false, "extracted_answer": "none", "reason": "It says \"there's two\" and talks of 18 balls and nine pins without ever saying 18 holes."}
+{"key": "k635efd4", "correct": true, "extracted_answer": "snowflakes", "reason": "It says \"you'd see snowflakes fall\", which is snow."}
+{"key": "k8892cd8", "correct": true, "extracted_answer": "White blood cells", "reason": "It answers \"White blood cells\"."}
+{"key": "keab7ee8", "correct": false, "extracted_answer": "elephants", "reason": "It says the largest animals are elephants and mentions blue whales only in a later list."}
+{"key": "kb3d7d0a", "correct": true, "extracted_answer": "the South American continent", "reason": "It says Argentina is on the South American continent."}
+{"key": "k7a3162d", "correct": false, "extracted_answer": "a set", "reason": "It says a zero score is called a set, not love."}
+{"key": "k635d24f", "correct": false, "extracted_answer": "three points", "reason": "It says a touchdown counts for three points, not 6."}
+{"key": "ke338f7c", "correct": false, "extracted_answer": "none", "reason": "It only defines a hole and never commits to a number; the 18 appears only in leftover self-assessment text."}
+{"key": "k6c02814", "correct": true, "extracted_answer": "The British", "reason": "It says \"The British did it first\", matching Britain."}
+{"key": "kfa9c3af", "correct": false, "extracted_answer": "simile", "reason": "It answers simile, not onomatopoeia."}
+{"key": "k1fff0ce", "correct": false, "extracted_answer": "deuce", "reason": "It says a zero score is called \"deuce\", not love."}
+{"key": "k088789b", "correct": false, "extracted_answer": "August 1914 or November 19", "reason": "It gives August 1914 but then says most historians put the start on November 19 and asks \"Who's your pick?\", so it gives conflicting answers."}
+{"key": "k2255d04", "correct": true, "extracted_answer": "Lake Superior", "reason": "It says Lake Superior is the largest by surface area."}
+{"key": "k875665e", "correct": true, "extracted_answer": "1492", "reason": "It says Columbus reached the Americas in 1492."}
+{"key": "ke70c946", "correct": false, "extracted_answer": "10", "reason": "It describes a \"10-a-side game\", not 11."}
+{"key": "kaaf69b0", "correct": false, "extracted_answer": "0-0", "reason": "It talks about \"0-0\" and never says love."}
+{"key": "kbc064ea", "correct": true, "extracted_answer": "snowflakes", "reason": "It says snowflakes fall in Minnesota, which is snow."}
+{"key": "kfd8a37f", "correct": false, "extracted_answer": "2", "reason": "It says \"The answer to this question is 2\", not 3."}
+{"key": "kb50a7bc", "correct": false, "extracted_answer": "mashed potato with green beans", "reason": "It names mashed potato with green beans, not turkey."}
+{"key": "k2f0aba0", "correct": false, "extracted_answer": "none", "reason": "It never states the plural; \"mice\" appears only in passing and in an example sentence."}
+{"key": "k0044bfc", "correct": false, "extracted_answer": "beech, oak, and lime", "reason": "It lists beech, oak and lime trees without committing to oak."}
+{"key": "k0447907", "correct": false, "extracted_answer": "none", "reason": "It defines bicycle and bilingual but never says what \"bi-\" means; \"two wheels\" appears only in an etymology aside."}

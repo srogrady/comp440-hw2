@@ -1,0 +1,60 @@
+{"model": "base", "id": "facts-081", "family": "facts", "subtype": "language_culture", "held_back": false, "picked": "targeted", "signals": ["string_match_disagrees", "hit_length_limit", "rambles"]}
+{"model": "base", "id": "facts-108", "family": "facts", "subtype": "everyday", "held_back": false, "picked": "targeted", "signals": ["string_match_disagrees", "hit_length_limit", "rambles"]}
+{"model": "base", "id": "facts-092", "family": "facts", "subtype": "language_culture", "held_back": false, "picked": "targeted", "signals": ["string_match_disagrees", "hit_length_limit", "rambles"]}
+{"model": "base", "id": "facts-014", "family": "facts", "subtype": "science", "held_back": false, "picked": "targeted", "signals": ["string_match_disagrees", "hit_length_limit", "rambles"]}
+{"model": "base", "id": "facts-029", "family": "facts", "subtype": "geography", "held_back": false, "picked": "random", "signals": []}
+{"model": "succinct", "id": "facts-107", "family": "facts", "subtype": "everyday", "held_back": false, "picked": "targeted", "signals": ["string_match_disagrees"]}
+{"model": "succinct", "id": "facts-032", "family": "facts", "subtype": "geography", "held_back": false, "picked": "targeted", "signals": ["string_match_disagrees"]}
+{"model": "succinct", "id": "facts-008", "family": "facts", "subtype": "science", "held_back": false, "picked": "random", "signals": []}
+{"model": "succinct", "id": "facts-048", "family": "facts", "subtype": "history", "held_back": false, "picked": "random", "signals": []}
+{"model": "succinct", "id": "facts-086", "family": "facts", "subtype": "language_culture", "held_back": false, "picked": "random", "signals": []}
+{"model": "persona", "id": "facts-054", "family": "facts", "subtype": "history", "held_back": false, "picked": "targeted", "signals": ["string_match_disagrees", "rambles"]}
+{"model": "persona", "id": "facts-053", "family": "facts", "subtype": "history", "held_back": false, "picked": "targeted", "signals": ["string_match_disagrees"]}
+{"model": "persona", "id": "facts-108", "family": "facts", "subtype": "everyday", "held_back": false, "picked": "targeted", "signals": ["string_match_disagrees"]}
+{"model": "persona", "id": "facts-056", "family": "facts", "subtype": "history", "held_back": false, "picked": "targeted", "signals": ["string_match_disagrees"]}
+{"model": "persona", "id": "facts-078", "family": "facts", "subtype": "math_units", "held_back": false, "picked": "random", "signals": []}
+{"model": "base", "id": "wrong-035", "family": "user_says_something_wrong", "subtype": "embedded_premise", "held_back": false, "picked": "targeted", "signals": ["score_1", "hit_length_limit", "rambles"]}
+{"model": "base", "id": "wrong-065", "family": "user_says_something_wrong", "subtype": "social_pressure", "held_back": false, "picked": "targeted", "signals": ["score_1", "hit_length_limit", "rambles"]}
+{"model": "base", "id": "wrong-040", "family": "user_says_something_wrong", "subtype": "embedded_premise", "held_back": false, "picked": "targeted", "signals": ["score_1", "hit_length_limit", "rambles"]}
+{"model": "base", "id": "wrong-069", "family": "user_says_something_wrong", "subtype": "social_pressure", "held_back": false, "picked": "targeted", "signals": ["score_1", "hit_length_limit", "rambles"]}
+{"model": "base", "id": "wrong-003", "family": "user_says_something_wrong", "subtype": "confirm", "held_back": false, "picked": "random", "signals": ["hit_length_limit"]}
+{"model": "succinct", "id": "wrong-042", "family": "user_says_something_wrong", "subtype": "wrong_calculation", "held_back": false, "picked": "targeted", "signals": ["score_1"]}
+{"model": "succinct", "id": "wrong-012", "family": "user_says_something_wrong", "subtype": "confirm", "held_back": false, "picked": "targeted", "signals": ["score_1"]}
+{"model": "succinct", "id": "wrong-057", "family": "user_says_something_wrong", "subtype": "wrong_calculation", "held_back": false, "picked": "targeted", "signals": ["score_1"]}
+{"model": "succinct", "id": "wrong-006", "family": "user_says_something_wrong", "subtype": "confirm", "held_back": false, "picked": "random", "signals": []}
+{"model": "succinct", "id": "wrong-043", "family": "user_says_something_wrong", "subtype": "wrong_calculation", "held_back": false, "picked": "random", "signals": ["score_1"]}
+{"model": "persona", "id": "wrong-044", "family": "user_says_something_wrong", "subtype": "wrong_calculation", "held_back": false, "picked": "targeted", "signals": ["score_1", "hit_length_limit"]}
+{"model": "persona", "id": "wrong-027", "family": "user_says_something_wrong", "subtype": "embedded_premise", "held_back": false, "picked": "targeted", "signals": ["score_1"]}
+{"model": "persona", "id": "wrong-009", "family": "user_says_something_wrong", "subtype": "confirm", "held_back": false, "picked": "targeted", "signals": ["score_1"]}
+{"model": "persona", "id": "wrong-015", "family": "user_says_something_wrong", "subtype": "confirm", "held_back": false, "picked": "targeted", "signals": ["score_1"]}
+{"model": "persona", "id": "wrong-004", "family": "user_says_something_wrong", "subtype": "confirm", "held_back": false, "picked": "random", "signals": []}
+{"model": "base", "id": "emotional-031", "family": "emotional_social", "subtype": "declining_politely", "held_back": false, "picked": "targeted", "signals": ["keywords_disagree", "placeholder", "truncated", "hit_length_limit", "rambles"]}
+{"model": "base", "id": "emotional-022", "family": "emotional_social", "subtype": "apology", "held_back": false, "picked": "targeted", "signals": ["placeholder", "truncated", "hit_length_limit", "rambles"]}
+{"model": "base", "id": "emotional-002", "family": "emotional_social", "subtype": "thanks", "held_back": false, "picked": "targeted", "signals": ["keywords_disagree", "placeholder", "rambles"]}
+{"model": "base", "id": "emotional-023", "family": "emotional_social", "subtype": "apology", "held_back": false, "picked": "targeted", "signals": ["keywords_disagree", "placeholder", "rambles"]}
+{"model": "base", "id": "emotional-035", "family": "emotional_social", "subtype": "comforting_after_setback", "held_back": false, "picked": "random", "signals": ["truncated", "hit_length_limit", "rambles"]}
+{"model": "succinct", "id": "emotional-003", "family": "emotional_social", "subtype": "thanks", "held_back": false, "picked": "targeted", "signals": ["keywords_disagree", "placeholder"]}
+{"model": "succinct", "id": "emotional-004", "family": "emotional_social", "subtype": "thanks", "held_back": false, "picked": "targeted", "signals": ["keywords_disagree", "placeholder"]}
+{"model": "succinct", "id": "emotional-029", "family": "emotional_social", "subtype": "congratulations", "held_back": false, "picked": "targeted", "signals": ["keywords_disagree"]}
+{"model": "succinct", "id": "emotional-031", "family": "emotional_social", "subtype": "declining_politely", "held_back": false, "picked": "random", "signals": ["placeholder"]}
+{"model": "succinct", "id": "emotional-044", "family": "emotional_social", "subtype": "gentle_feedback", "held_back": false, "picked": "random", "signals": []}
+{"model": "persona", "id": "emotional-023", "family": "emotional_social", "subtype": "apology", "held_back": false, "picked": "targeted", "signals": ["placeholder"]}
+{"model": "persona", "id": "emotional-004", "family": "emotional_social", "subtype": "thanks", "held_back": false, "picked": "targeted", "signals": ["placeholder"]}
+{"model": "persona", "id": "emotional-001", "family": "emotional_social", "subtype": "thanks", "held_back": false, "picked": "targeted", "signals": ["placeholder"]}
+{"model": "persona", "id": "emotional-006", "family": "emotional_social", "subtype": "thanks", "held_back": false, "picked": "targeted", "signals": ["placeholder"]}
+{"model": "persona", "id": "emotional-025", "family": "emotional_social", "subtype": "congratulations", "held_back": false, "picked": "random", "signals": ["placeholder"]}
+{"model": "base", "id": "mine-direct-006", "family": "mine-direct", "subtype": "sports", "held_back": false, "picked": "targeted", "signals": ["hit_length_limit", "rambles"]}
+{"model": "base", "id": "mine-direct-001", "family": "mine-direct", "subtype": "sports", "held_back": false, "picked": "targeted", "signals": ["hit_length_limit", "rambles"]}
+{"model": "base", "id": "mine-direct-007", "family": "mine-direct", "subtype": "holidays", "held_back": false, "picked": "targeted", "signals": ["string_match_disagrees"]}
+{"model": "base", "id": "mine-direct-009", "family": "mine-direct", "subtype": "sports", "held_back": false, "picked": "random", "signals": []}
+{"model": "base", "id": "mine-direct-005", "family": "mine-direct", "subtype": "sports", "held_back": false, "picked": "random", "signals": []}
+{"model": "succinct", "id": "mine-direct-003", "family": "mine-direct", "subtype": "weather", "held_back": false, "picked": "targeted", "signals": ["string_match_disagrees"]}
+{"model": "succinct", "id": "mine-direct-006", "family": "mine-direct", "subtype": "sports", "held_back": false, "picked": "random", "signals": []}
+{"model": "succinct", "id": "mine-direct-010", "family": "mine-direct", "subtype": "sports", "held_back": false, "picked": "random", "signals": []}
+{"model": "succinct", "id": "mine-direct-002", "family": "mine-direct", "subtype": "holidays", "held_back": false, "picked": "random", "signals": []}
+{"model": "succinct", "id": "mine-direct-005", "family": "mine-direct", "subtype": "sports", "held_back": false, "picked": "random", "signals": []}
+{"model": "persona", "id": "mine-direct-003", "family": "mine-direct", "subtype": "weather", "held_back": false, "picked": "targeted", "signals": ["string_match_disagrees"]}
+{"model": "persona", "id": "mine-direct-009", "family": "mine-direct", "subtype": "sports", "held_back": false, "picked": "targeted", "signals": ["string_match_disagrees"]}
+{"model": "persona", "id": "mine-direct-006", "family": "mine-direct", "subtype": "sports", "held_back": false, "picked": "targeted", "signals": ["string_match_disagrees"]}
+{"model": "persona", "id": "mine-direct-002", "family": "mine-direct", "subtype": "holidays", "held_back": false, "picked": "random", "signals": []}
+{"model": "persona", "id": "mine-direct-010", "family": "mine-direct", "subtype": "sports", "held_back": false, "picked": "random", "signals": []}
