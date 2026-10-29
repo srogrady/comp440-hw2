@@ -1,0 +1,59 @@
+{"key": "k877f2a1", "correct": true, "extracted_answer": "16 ounces", "reason": "States a pound is 16 ounces."}
+{"key": "k5412c34", "correct": true, "extracted_answer": "$7.50", "reason": "Working arrives at $7.50."}
+{"key": "k5fd65ab", "correct": false, "extracted_answer": "fresh surprise / already know", "reason": "Gives 'fresh surprise' and invented etymology, not 'already seen'."}
+{"key": "k19c1dbd", "correct": false, "extracted_answer": "United States of America", "reason": "Names the USA, not Vatican City."}
+{"key": "k80ff15a", "correct": true, "extracted_answer": "52", "reason": "Says 52 regular playing cards."}
+{"key": "k1c89dff", "correct": true, "extracted_answer": "46", "reason": "Says 46 chromosomes."}
+{"key": "k9def533", "correct": true, "extracted_answer": "Antonio Vivaldi", "reason": "Names Antonio Vivaldi."}
+{"key": "k47885af", "correct": false, "extracted_answer": "Jefferson, Franklin and John Adams", "reason": "Lists three authors as main authors without committing to Jefferson alone."}
+{"key": "k4774b84", "correct": true, "extracted_answer": "150 miles", "reason": "Working gives 150 miles."}
+{"key": "k62cb81c", "correct": true, "extracted_answer": "Winston Churchill", "reason": "Names Winston Churchill."}
+{"key": "ka065fc9", "correct": true, "extracted_answer": "210", "reason": "States 210 minutes."}
+{"key": "kde17969", "correct": true, "extracted_answer": "Egypt", "reason": "Says Egypt."}
+{"key": "k3843381", "correct": true, "extracted_answer": "Nitrogen", "reason": "Says nitrogen, about 78%."}
+{"key": "k31ae27e", "correct": true, "extracted_answer": "The Inca", "reason": "Says built by the Inca."}
+{"key": "ka8a5acd", "correct": true, "extracted_answer": "Egypt", "reason": "Says Egypt."}
+{"key": "k10db339", "correct": true, "extracted_answer": "1914", "reason": "Says 1914."}
+{"key": "kcf4efb6", "correct": true, "extracted_answer": "56", "reason": "Answers 56."}
+{"key": "k6c05841", "correct": true, "extracted_answer": "thank you", "reason": "Says gracias means thank you."}
+{"key": "kd4371a1", "correct": true, "extracted_answer": "Zeus", "reason": "Says Zeus."}
+{"key": "k199fbf4", "correct": true, "extracted_answer": "64", "reason": "Says 64 squares; later extra detail is unrelated."}
+{"key": "k4387f1d", "correct": false, "extracted_answer": "imitation", "reason": "Answers 'imitation', not onomatopoeia."}
+{"key": "k93c940b", "correct": true, "extracted_answer": "1945", "reason": "Says 1945."}
+{"key": "k0c5da18", "correct": false, "extracted_answer": "William Faulkner", "reason": "Names Faulkner, not Achebe."}
+{"key": "kd5a8048", "correct": true, "extracted_answer": "Johannes Gutenberg", "reason": "Names Johannes Gutenberg."}
+{"key": "kd01fc91", "correct": false, "extracted_answer": "penny", "reason": "Says penny, not dime."}
+{"key": "k4bcd249", "correct": true, "extracted_answer": "5,280", "reason": "Says 5,280 feet."}
+{"key": "k09ffca4", "correct": true, "extracted_answer": "condensation", "reason": "Says 'It's called condensation.'"}
+{"key": "k288a961", "correct": true, "extracted_answer": "snow", "reason": "Says snowflakes fall; snow."}
+{"key": "k9cb4db8", "correct": true, "extracted_answer": "eight", "reason": "Says eight legs."}
+{"key": "k09088d4", "correct": true, "extracted_answer": "225", "reason": "Answers 225."}
+{"key": "ke7f857a", "correct": true, "extracted_answer": "antonym", "reason": "Says 'It's antonym.'"}
+{"key": "k82cc4e5", "correct": true, "extracted_answer": "South America", "reason": "Says South American continent."}
+{"key": "kf4c24e3", "correct": false, "extracted_answer": "206 to 314", "reason": "Gives a vague range and says no single answer."}
+{"key": "k022f7cc", "correct": true, "extracted_answer": "5,280", "reason": "Says exactly 5,280 feet."}
+{"key": "kf81e69c", "correct": true, "extracted_answer": "The Seine", "reason": "Says the Seine."}
+{"key": "kcdaabdc", "correct": true, "extracted_answer": "The Mayflower", "reason": "Says the Mayflower."}
+{"key": "kee27fb5", "correct": false, "extracted_answer": "Mount Rainier National Park", "reason": "Gives Mount Rainier, not Angel Falls."}
+{"key": "k2821984", "correct": false, "extracted_answer": "4 sides", "reason": "Says 4 sides, not 8."}
+{"key": "kf07a019", "correct": true, "extracted_answer": "13", "reason": "Says 13."}
+{"key": "k30f4634", "correct": true, "extracted_answer": "366", "reason": "Says 366 days."}
+{"key": "k09153de", "correct": true, "extracted_answer": "Vincent van Gogh", "reason": "Names Vincent van Gogh."}
+{"key": "kdf78b13", "correct": false, "extracted_answer": "974", "reason": "974 is not 635."}
+{"key": "k58edc03", "correct": true, "extracted_answer": "Venus", "reason": "Says Venus."}
+{"key": "kd4e3d15", "correct": true, "extracted_answer": "32°F", "reason": "Says 32°F."}
+{"key": "k9cc614d", "correct": false, "extracted_answer": "Lake Michigan", "reason": "Says Michigan, not Superior."}
+{"key": "k8d713f3", "correct": true, "extracted_answer": "The femur", "reason": "Says the femur, or thighbone."}
+{"key": "k39d11ab", "correct": true, "extracted_answer": "$45", "reason": "Working arrives at $45."}
+{"key": "k0db2492", "correct": true, "extracted_answer": "Leonardo da Vinci", "reason": "Names Leonardo da Vinci."}
+{"key": "k894106d", "correct": true, "extracted_answer": "7", "reason": "Says sum is 7."}
+{"key": "kea54347", "correct": true, "extracted_answer": "$7.50", "reason": "Says $7.50."}
+{"key": "kd995f46", "correct": true, "extracted_answer": "52", "reason": "Says 52 cards."}
+{"key": "k04f39f6", "correct": true, "extracted_answer": "5, 7 and 5", "reason": "Says 5, 7 and 5 syllable lines."}
+{"key": "k5597c1a", "correct": true, "extracted_answer": "Zeus", "reason": "Says Zeus."}
+{"key": "kf442785", "correct": true, "extracted_answer": "The Inca", "reason": "Says the Inca Empire."}
+{"key": "k0268c44", "correct": true, "extracted_answer": "9", "reason": "Says one third of 27 is 9."}
+{"key": "k8226aaa", "correct": true, "extracted_answer": "5,280", "reason": "Says 5,280 feet."}
+{"key": "kf82a4f8", "correct": true, "extracted_answer": "France", "reason": "Says donated by France."}
+{"key": "k844ded4", "correct": false, "extracted_answer": "Giuseppe Verdi", "reason": "Names Verdi, not Vivaldi."}
+{"key": "k164fd95", "correct": true, "extracted_answer": "England", "reason": "Says England/Britain."}

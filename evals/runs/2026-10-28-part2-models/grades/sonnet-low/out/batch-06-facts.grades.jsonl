@@ -1,0 +1,59 @@
+{"key":"k8ac8c31","correct":true,"extracted_answer":"six zeros","reason":"States 1,000,000 has six zeros, with a side remark about seven."}
+{"key":"ked75001","correct":false,"extracted_answer":"depends; mice or mouse","reason":"Confused, ties mice to insects and says pet is 'a mouse'."}
+{"key":"kc227c0f","correct":true,"extracted_answer":"7","reason":"Pairs each sum to 7."}
+{"key":"kb38186d","correct":true,"extracted_answer":"yolk","reason":"Says 'The yolk is that one'."}
+{"key":"kd9c3946","correct":true,"extracted_answer":"already seen","reason":"Says 'already seen'."}
+{"key":"k5c1d3f5","correct":true,"extracted_answer":"Winston Churchill","reason":"Names Winston Churchill."}
+{"key":"kc7c44e7","correct":true,"extracted_answer":"1492","reason":"Says landfall in 1492."}
+{"key":"k436fa1d","correct":true,"extracted_answer":"turkey","reason":"Lists turkey first as the main food."}
+{"key":"k68500b3","correct":false,"extracted_answer":"Giuseppe Puccini","reason":"Wrong composer, not Vivaldi."}
+{"key":"k9240b30","correct":true,"extracted_answer":"hydrogen","reason":"Says it is called hydrogen."}
+{"key":"kc56a879","correct":true,"extracted_answer":"Au","reason":"Says Au."}
+{"key":"kea414f4","correct":true,"extracted_answer":"Gabriel García Márquez","reason":"Names García Márquez."}
+{"key":"keab4d35","correct":true,"extracted_answer":"56","reason":"7 x 8 = 56."}
+{"key":"k16e8493","correct":true,"extracted_answer":"oak","reason":"Says acorns grow on the oak."}
+{"key":"kbd5ed68","correct":true,"extracted_answer":"Au","reason":"Says Au."}
+{"key":"kca06870","correct":true,"extracted_answer":"Ankara","reason":"Says 'The capital is Ankara' despite a wrong aside."}
+{"key":"keec95cd","correct":true,"extracted_answer":"yolk","reason":"Says yolk."}
+{"key":"k759a1ca","correct":true,"extracted_answer":"honey","reason":"Says bees make honey."}
+{"key":"k0dfc4e2","correct":false,"extracted_answer":"New York","reason":"Wrong state, not Minnesota."}
+{"key":"kf34e919","correct":true,"extracted_answer":"Strait of Gibraltar","reason":"Names the Strait of Gibraltar."}
+{"key":"k1dc5b7f","correct":true,"extracted_answer":"soccer","reason":"Says 'It's soccer'."}
+{"key":"k96a63ec","correct":true,"extracted_answer":"German","reason":"Says it comes from German."}
+{"key":"k6264cf3","correct":true,"extracted_answer":"Lake Superior","reason":"Names Lake Superior."}
+{"key":"k740bfa9","correct":true,"extracted_answer":"15","reason":"3 x 5 = 15."}
+{"key":"k400da41","correct":true,"extracted_answer":"chickpeas","reason":"Says made from chickpeas."}
+{"key":"k6e4d390","correct":true,"extracted_answer":"Halloween","reason":"Says Halloween."}
+{"key":"k2a95a9d","correct":true,"extracted_answer":"6","reason":"Says six-sided."}
+{"key":"k8d4ab87","correct":false,"extracted_answer":"mashed potato with green beans","reason":"Does not say turkey."}
+{"key":"k065183e","correct":true,"extracted_answer":"basil","reason":"Says the star is basil."}
+{"key":"kc576ce9","correct":true,"extracted_answer":"aorta / pulmonary artery","reason":"Names the aorta and pulmonary artery, which are arteries."}
+{"key":"k18cec3b","correct":true,"extracted_answer":"16","reason":"Says 16 ounces."}
+{"key":"k3e65dc5","correct":true,"extracted_answer":"went","reason":"Says went."}
+{"key":"k1f79158","correct":true,"extracted_answer":"Tokyo","reason":"Says Tokyo."}
+{"key":"k979fc15","correct":true,"extracted_answer":"1024","reason":"Says 1024."}
+{"key":"k0475794","correct":false,"extracted_answer":"three, then 6 total","reason":"Says three but ends with 'it's 6 total', conflicting."}
+{"key":"k6045d9b","correct":true,"extracted_answer":"Mayflower","reason":"Says Mayflower."}
+{"key":"k65a0723","correct":true,"extracted_answer":"chickpeas","reason":"Lists chickpeas first."}
+{"key":"kcde9060","correct":false,"extracted_answer":"none","reason":"Refuses a single answer, hedges greenish-blue or bluish-purple."}
+{"key":"kaa1c5a4","correct":false,"extracted_answer":"George Washington","reason":"Wrong, expected John Adams."}
+{"key":"k82c2317","correct":false,"extracted_answer":"Theodore Roosevelt","reason":"Wrong, expected John Adams."}
+{"key":"k0837f00","correct":true,"extracted_answer":"Hydrogen","reason":"Says Hydrogen, atomic number 1."}
+{"key":"k117de27","correct":true,"extracted_answer":"Hydrogen","reason":"Says hydrogen."}
+{"key":"k4f08822","correct":false,"extracted_answer":"Apollo 11 mission","reason":"Never names Neil Armstrong."}
+{"key":"k9a7317d","correct":false,"extracted_answer":"Himalayas","reason":"Wrong range, not the Urals."}
+{"key":"k7f72c8c","correct":false,"extracted_answer":"Robert Falcon Scott","reason":"Wrong, not Amundsen."}
+{"key":"k4b92dd3","correct":true,"extracted_answer":"Johannes Gutenberg","reason":"Names Gutenberg as the inventor."}
+{"key":"k85e9079","correct":false,"extracted_answer":"orange","reason":"Wrong, expected green."}
+{"key":"kde5904b","correct":true,"extracted_answer":"Lake Superior","reason":"Says Lake Superior is the largest."}
+{"key":"k35c1bd4","correct":true,"extracted_answer":"1945","reason":"Says the war ended in 1945."}
+{"key":"k309b71b","correct":true,"extracted_answer":"Spanish","reason":"Says the book is in Spanish."}
+{"key":"kbdca12d","correct":true,"extracted_answer":"Ankara","reason":"Says Ankara."}
+{"key":"k363cd86","correct":false,"extracted_answer":"none","reason":"Says it cannot answer."}
+{"key":"k0961455","correct":false,"extracted_answer":"France","reason":"Wrong, expected Vatican City."}
+{"key":"kd7706e7","correct":true,"extracted_answer":"hail","reason":"Says they're called hail."}
+{"key":"kf324bdf","correct":false,"extracted_answer":"unclear, muddled about Earth and Venus","reason":"Says it depends and muddles Earth and Venus without committing."}
+{"key":"kc672ecf","correct":true,"extracted_answer":"5/8","reason":"Answer is 5/8."}
+{"key":"kb527696","correct":true,"extracted_answer":"150 miles","reason":"Says 150 miles."}
+{"key":"ke3b2ec0","correct":true,"extracted_answer":"Britain","reason":"Says the British did it first."}
+{"key":"k0d3fca2","correct":false,"extracted_answer":"The Sleeping Beauty","reason":"Wrong ballet, not The Nutcracker."}

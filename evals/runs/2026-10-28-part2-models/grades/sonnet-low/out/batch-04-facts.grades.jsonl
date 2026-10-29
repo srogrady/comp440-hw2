@@ -1,0 +1,59 @@
+{"key":"k048cb71","correct":true,"extracted_answer":"1492","reason":"States 1492."}
+{"key":"k8f3ebcb","correct":true,"extracted_answer":"The Milky Way","reason":"Answers Milky Way Galaxy."}
+{"key":"kdffafd4","correct":true,"extracted_answer":"1492","reason":"Gives dates in 1492 as the voyage and landing year."}
+{"key":"kb90eb9e","correct":true,"extracted_answer":"lava","reason":"Says molten rock is called lava."}
+{"key":"k229fbce","correct":true,"extracted_answer":"Thomas Jefferson","reason":"Names Thomas Jefferson."}
+{"key":"k98413ba","correct":true,"extracted_answer":"Homer","reason":"Names Homer."}
+{"key":"ka2ca4fc","correct":true,"extracted_answer":"The Inca","reason":"Says the Inca Empire built it."}
+{"key":"k00456fe","correct":false,"extracted_answer":"New York","reason":"Says New York, not Minnesota."}
+{"key":"k30bb895","correct":true,"extracted_answer":"6","reason":"States 6 points."}
+{"key":"k264ffee","correct":true,"extracted_answer":"ohms","reason":"Says ohms."}
+{"key":"k44fdbb0","correct":true,"extracted_answer":"France","reason":"Opens with 'The answer is France'."}
+{"key":"k8227a10","correct":true,"extracted_answer":"1024","reason":"Gives 2^10 = 1024."}
+{"key":"kd03ca9d","correct":true,"extracted_answer":"eight","reason":"Says eight legs."}
+{"key":"kc7047cf","correct":true,"extracted_answer":"Charles Dickens","reason":"Names Charles Dickens as the author."}
+{"key":"k8f4af59","correct":true,"extracted_answer":"5/8","reason":"Says 5/8 left."}
+{"key":"k8be86fa","correct":true,"extracted_answer":"Spanish","reason":"Says Spanish."}
+{"key":"kd31d24f","correct":true,"extracted_answer":"Ottawa","reason":"Says the capital is Ottawa."}
+{"key":"kd08c5f2","correct":true,"extracted_answer":"46","reason":"Says 46 chromosomes."}
+{"key":"k8df7765","correct":true,"extracted_answer":"The skin","reason":"Answers the skin."}
+{"key":"kf58fd3f","correct":true,"extracted_answer":"Strait of Gibraltar","reason":"Names the Strait of Gibraltar."}
+{"key":"k9ff76b1","correct":true,"extracted_answer":"15","reason":"3 x 5 = 15."}
+{"key":"k26c35fb","correct":true,"extracted_answer":"honey","reason":"Says the stuff is called honey."}
+{"key":"k3225193","correct":true,"extracted_answer":"Strait of Gibraltar","reason":"Names the Strait of Gibraltar."}
+{"key":"k46b32a6","correct":true,"extracted_answer":"8 days","reason":"Says 8 days."}
+{"key":"ked31c89","correct":false,"extracted_answer":"none","reason":"Rambles about bicycle and never says 'two'."}
+{"key":"kecfd557","correct":true,"extracted_answer":"chickpeas","reason":"Lists chickpeas first as main ingredient."}
+{"key":"k7920a5a","correct":true,"extracted_answer":"bishop","reason":"Names the bishop, though the explanation is garbled."}
+{"key":"kb745efa","correct":true,"extracted_answer":"1,024","reason":"Says 1,024."}
+{"key":"kfa25505","correct":false,"extracted_answer":"France","reason":"Says France, not Italy."}
+{"key":"k9060555","correct":true,"extracted_answer":"condensation","reason":"Says condensation."}
+{"key":"k8a88215","correct":true,"extracted_answer":"oak","reason":"Says acorns come from oak trees."}
+{"key":"k7644ec3","correct":true,"extracted_answer":"ohms","reason":"Says ohms."}
+{"key":"k7387dee","correct":false,"extracted_answer":"none","reason":"Lists 365 and 366 without committing."}
+{"key":"kcec85d6","correct":true,"extracted_answer":"Winston Churchill","reason":"Names Winston Churchill."}
+{"key":"k013d2a5","correct":true,"extracted_answer":"Halloween","reason":"Says Halloween."}
+{"key":"k3311552","correct":true,"extracted_answer":"Ankara","reason":"Says the capital is Ankara."}
+{"key":"kb3ed906","correct":true,"extracted_answer":"Mahatma Gandhi","reason":"Names Mahatma Gandhi."}
+{"key":"kf2734d8","correct":true,"extracted_answer":"Gabriel García Márquez","reason":"Names García Márquez."}
+{"key":"ka73472c","correct":true,"extracted_answer":"Milky Way","reason":"Says the Sun lies in the Milky Way."}
+{"key":"k624c2ee","correct":true,"extracted_answer":"Gabriel García Márquez","reason":"Names García Márquez."}
+{"key":"k28e5511","correct":true,"extracted_answer":"carbon dioxide","reason":"Says plants absorb carbon dioxide."}
+{"key":"k9e4b039","correct":true,"extracted_answer":"Mayflower","reason":"Names Mayflower."}
+{"key":"ka48da8a","correct":false,"extracted_answer":"six","reason":"Says six sides, not eight."}
+{"key":"k36a8672","correct":true,"extracted_answer":"Leonardo da Vinci","reason":"Says it's done by Leonardo da Vinci."}
+{"key":"kd651cb3","correct":true,"extracted_answer":"1492","reason":"States 1492."}
+{"key":"k8b4001b","correct":false,"extracted_answer":"none","reason":"Only lists femur among long bones, never commits to it as longest."}
+{"key":"k9142fa0","correct":true,"extracted_answer":"The Nutcracker","reason":"Names The Nutcracker."}
+{"key":"kc41248a","correct":true,"extracted_answer":"carbon dioxide","reason":"Says carbon dioxide."}
+{"key":"k9b7c5e8","correct":false,"extracted_answer":"Danube","reason":"Lists Danube first and ends asking if Danube is correct, not Volga."}
+{"key":"k50c0ae0","correct":true,"extracted_answer":"Seine","reason":"Names the River Seine."}
+{"key":"k06f83e4","correct":true,"extracted_answer":"Egypt","reason":"Says Egypt."}
+{"key":"k95ec208","correct":true,"extracted_answer":"pressure","reason":"Says it measures pressure."}
+{"key":"ka862da0","correct":true,"extracted_answer":"Ankara","reason":"Says Ankara."}
+{"key":"kd2bf007","correct":true,"extracted_answer":"28 square meters","reason":"Says 28 square meters."}
+{"key":"k1754aff","correct":false,"extracted_answer":"none","reason":"Talks about Magellan in 1519, no 1492."}
+{"key":"k1fec0b0","correct":false,"extracted_answer":"Hawaiian Islands","reason":"Says Hawaiian Islands, not Greenland."}
+{"key":"kf68e33f","correct":true,"extracted_answer":"femur","reason":"Names the femur, thighbone."}
+{"key":"k5fe8ecc","correct":false,"extracted_answer":"December","reason":"Talks about the shortest day in December, not February."}
+{"key":"k8e14de0","correct":true,"extracted_answer":"Venus","reason":"Names Venus."}

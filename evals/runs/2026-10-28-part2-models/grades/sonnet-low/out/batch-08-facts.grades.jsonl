@@ -1,0 +1,59 @@
+{"key":"k44e6f52","correct":false,"extracted_answer":"liver","reason":"Says the liver, not the skin."}
+{"key":"k95336a4","correct":true,"extracted_answer":"225","reason":"States 225."}
+{"key":"k15b2718","correct":false,"extracted_answer":"seven","reason":"Says seven sides, not 8."}
+{"key":"k13622f5","correct":false,"extracted_answer":"gone","reason":"Says 'gone', not 'went'."}
+{"key":"ke382802","correct":true,"extracted_answer":"six","reason":"Says six equal sides."}
+{"key":"ka6a23c4","correct":false,"extracted_answer":"January, February and March","reason":"Lists three months without committing to February."}
+{"key":"k0ce4a26","correct":true,"extracted_answer":"1989","reason":"States 1989."}
+{"key":"kb5558c4","correct":true,"extracted_answer":"Vincent van Gogh","reason":"Names Vincent van Gogh."}
+{"key":"k5a5ec1f","correct":false,"extracted_answer":"George Washington","reason":"Names Washington, not John Adams."}
+{"key":"k2cc88df","correct":true,"extracted_answer":"soybeans","reason":"Says 'mostly from soybeans'."}
+{"key":"k3227728","correct":false,"extracted_answer":"El Capitan Falls","reason":"Gives a wrong falls, not Angel Falls."}
+{"key":"k0b6432e","correct":false,"extracted_answer":"none","reason":"Talks about thunderclouds, never says hail."}
+{"key":"k8cdbf6e","correct":true,"extracted_answer":"soccer","reason":"Answers 'soccer'."}
+{"key":"k0010e05","correct":false,"extracted_answer":"634","reason":"Arrives at 634, not 635."}
+{"key":"kfdb5609","correct":true,"extracted_answer":"soybeans","reason":"Says soybeans."}
+{"key":"k1e651eb","correct":false,"extracted_answer":"Robert Falcon Scott","reason":"Names Scott, not Amundsen."}
+{"key":"k5ccb8b9","correct":true,"extracted_answer":"the Seine","reason":"Names the Seine."}
+{"key":"k6d8b860","correct":true,"extracted_answer":"3,600","reason":"States 3,600."}
+{"key":"kefa7d74","correct":true,"extracted_answer":"England","reason":"Says England."}
+{"key":"k7eed9b6","correct":true,"extracted_answer":"210 minutes","reason":"States 210 minutes."}
+{"key":"k1038cb4","correct":false,"extracted_answer":"none","reason":"Never names the month of Valentine's Day; talks about February 2nd feast."}
+{"key":"k5b50fab","correct":true,"extracted_answer":"Au","reason":"Says 'Gold is Au'."}
+{"key":"k8a14886","correct":true,"extracted_answer":"thank you","reason":"Says it means 'thank you'."}
+{"key":"k34b7944","correct":false,"extracted_answer":"none","reason":"Never says 'love'."}
+{"key":"k594dd39","correct":true,"extracted_answer":"5,280","reason":"States 5,280."}
+{"key":"kac2e68f","correct":false,"extracted_answer":"Voi Tsang waterfall","reason":"Names a wrong waterfall."}
+{"key":"ke31bdc5","correct":false,"extracted_answer":"Hawaiian Islands","reason":"Not Greenland."}
+{"key":"kdf9ac78","correct":false,"extracted_answer":"4-sided and 6-sided","reason":"Gives 4 and 6 sides, not 8."}
+{"key":"k8946763","correct":false,"extracted_answer":"none","reason":"Muddled; says it ended with D-Day in June, no clear 1945 end."}
+{"key":"kcbc2669","correct":true,"extracted_answer":"3600","reason":"Says 3600."}
+{"key":"kca19efc","correct":true,"extracted_answer":"16","reason":"A pound is 16 ounces."}
+{"key":"k0cb0127","correct":true,"extracted_answer":"Indian Ocean","reason":"Names the Indian Ocean."}
+{"key":"k6359247","correct":false,"extracted_answer":"oxygen","reason":"Says oxygen, not nitrogen."}
+{"key":"k16812e5","correct":false,"extracted_answer":"Red","reason":"Says Red."}
+{"key":"k474a5eb","correct":false,"extracted_answer":"none","reason":"Says no one official answer and lists Hera and Athena too."}
+{"key":"kffac996","correct":true,"extracted_answer":"$45","reason":"States $45."}
+{"key":"k519fdfd","correct":false,"extracted_answer":"none","reason":"Talks about Asia and never says Greenland."}
+{"key":"k48e3f38","correct":true,"extracted_answer":"Gandhi","reason":"Opens with 'Gandhi!'."}
+{"key":"kcc6c273","correct":true,"extracted_answer":"green","reason":"Says a shade of green."}
+{"key":"k12c4889","correct":false,"extracted_answer":"homophone","reason":"Says homophone, not onomatopoeia."}
+{"key":"kca9a115","correct":false,"extracted_answer":"nine holes","reason":"Says nine, not 18."}
+{"key":"k104d4ee","correct":true,"extracted_answer":"the bishop","reason":"Names the bishop."}
+{"key":"kd5b5bc0","correct":false,"extracted_answer":"penny","reason":"Says penny, not dime."}
+{"key":"k0ee2b70","correct":true,"extracted_answer":"1989","reason":"Says November 9, 1989."}
+{"key":"kb134579","correct":false,"extracted_answer":"2","reason":"Says 2, not 3."}
+{"key":"k1fdc139","correct":true,"extracted_answer":"Gabriel García Márquez","reason":"First states García Márquez as author."}
+{"key":"k57a6379","correct":true,"extracted_answer":"arteries","reason":"Says arteries."}
+{"key":"kd114d64","correct":true,"extracted_answer":"28 square meters","reason":"States 28 square meters."}
+{"key":"ka848716","correct":true,"extracted_answer":"thank you","reason":"Says gracias is 'thank you'."}
+{"key":"k5f20f60","correct":true,"extracted_answer":"six","reason":"Says six zeros."}
+{"key":"k3fb903b","correct":true,"extracted_answer":"lava","reason":"Says 'called lava'."}
+{"key":"kb8b087e","correct":true,"extracted_answer":"Mount Everest","reason":"Names Mount Everest, 8,848 m."}
+{"key":"k7f2259e","correct":true,"extracted_answer":"225","reason":"States 225."}
+{"key":"k6758ef8","correct":true,"extracted_answer":"the equator","reason":"Says 'The equator!'."}
+{"key":"kf83804a","correct":true,"extracted_answer":"the nucleus","reason":"Opens with 'The nucleus'."}
+{"key":"k0f8613b","correct":false,"extracted_answer":"beech, oak, and lime","reason":"Lists three trees without committing to oak."}
+{"key":"ka9f3a4e","correct":true,"extracted_answer":"3,600","reason":"States 3,600 seconds."}
+{"key":"k37a8cf0","correct":true,"extracted_answer":"Leonardo da Vinci","reason":"Names Leonardo da Vinci."}
+{"key":"k5c48dd2","correct":true,"extracted_answer":"basil","reason":"Names basil as the first ingredient."}

@@ -1,0 +1,59 @@
+{"key": "k39d38fa", "correct": true, "extracted_answer": "German", "reason": "Says borrowed from German."}
+{"key": "kc715088", "correct": false, "extracted_answer": "turkey or stuffing, varies", "reason": "Lists turkey among several options without committing."}
+{"key": "kf2144d6", "correct": true, "extracted_answer": "Winston Churchill", "reason": "Opens with Winston Churchill."}
+{"key": "k73cad35", "correct": true, "extracted_answer": "Homer", "reason": "Says Homer."}
+{"key": "k3349177", "correct": true, "extracted_answer": "16", "reason": "Says 16 ounces."}
+{"key": "k434985c", "correct": true, "extracted_answer": "168", "reason": "Working gives 7 x 24 = 168."}
+{"key": "ke20207c", "correct": true, "extracted_answer": "Tokyo", "reason": "Says Tokyo."}
+{"key": "k8b3af9d", "correct": false, "extracted_answer": "a set", "reason": "Says set, not love."}
+{"key": "k2818e17", "correct": true, "extracted_answer": "Italy", "reason": "Names Italy as the boot."}
+{"key": "k7005032", "correct": false, "extracted_answer": "homophone", "reason": "Defines homophone, not onomatopoeia."}
+{"key": "kc1364dc", "correct": true, "extracted_answer": "625", "reason": "250 + 375 = 625."}
+{"key": "k889478f", "correct": true, "extracted_answer": "seize the day", "reason": "Translates as \"seize the day.\""}
+{"key": "k83ccfc6", "correct": false, "extracted_answer": "six-sided, but also eight sides", "reason": "Contradicts itself with \"eight sides in total.\""}
+{"key": "k6ebdd48", "correct": true, "extracted_answer": "1914", "reason": "Says July 28, 1914."}
+{"key": "k11ae899", "correct": true, "extracted_answer": "Halloween", "reason": "Says Halloween."}
+{"key": "kb7cfed5", "correct": false, "extracted_answer": "none", "reason": "Never names the ohm; rambles."}
+{"key": "k01f99c8", "correct": false, "extracted_answer": "Yosemite Falls", "reason": "Gives Yosemite and a made-up falls, not Angel Falls."}
+{"key": "k8fc8ff7", "correct": true, "extracted_answer": "atmospheric pressure", "reason": "Says measures atmospheric pressure."}
+{"key": "k575cac4", "correct": true, "extracted_answer": "Saturn", "reason": "Says \"It's Saturn.\""}
+{"key": "k69e5189", "correct": true, "extracted_answer": "The equator", "reason": "Says the equator."}
+{"key": "kcd3c9ec", "correct": true, "extracted_answer": "Sputnik 1", "reason": "Names Sputnik 1."}
+{"key": "k068c200", "correct": true, "extracted_answer": "antonym", "reason": "Says \"antonym.\""}
+{"key": "k629ea14", "correct": true, "extracted_answer": "Nitrogen", "reason": "Says nitrogen, about 78%."}
+{"key": "k5274d9c", "correct": true, "extracted_answer": "The nucleus", "reason": "Says the nucleus."}
+{"key": "k6adff20", "correct": false, "extracted_answer": "simile", "reason": "Defines simile, not onomatopoeia."}
+{"key": "k1a456b6", "correct": true, "extracted_answer": "8 days", "reason": "Says 8 days."}
+{"key": "k085df6f", "correct": false, "extracted_answer": "went or dropped", "reason": "Offers \"dropped\" as an alternative, no clear commitment."}
+{"key": "k85895ff", "correct": true, "extracted_answer": "The yolk", "reason": "Opens with \"The yolk.\""}
+{"key": "k2e30f45", "correct": true, "extracted_answer": "German", "reason": "Says it comes from German."}
+{"key": "kcb60004", "correct": false, "extracted_answer": "The Philippines", "reason": "Wrong country, not Vatican City."}
+{"key": "k9ddc740", "correct": true, "extracted_answer": "France", "reason": "Says the US got it from France."}
+{"key": "ke927876", "correct": true, "extracted_answer": "The Inca", "reason": "Opens with \"The ancient Inca.\""}
+{"key": "kd5752de", "correct": false, "extracted_answer": "$135", "reason": "Final answer 135, not 45."}
+{"key": "kec190c9", "correct": true, "extracted_answer": "13", "reason": "Says 13."}
+{"key": "k3319017", "correct": false, "extracted_answer": "Ernest Shackleton", "reason": "Wrong person; expected Amundsen."}
+{"key": "k13621d7", "correct": true, "extracted_answer": "Homer", "reason": "Says the Iliad is by Homer."}
+{"key": "k04dc2d1", "correct": true, "extracted_answer": "condensation", "reason": "Says \"It's called condensation.\""}
+{"key": "k82d6d34", "correct": false, "extracted_answer": "teams of six each", "reason": "Says six, not 11."}
+{"key": "k93c3eb9", "correct": true, "extracted_answer": "The Pacific Ocean", "reason": "Says Pacific."}
+{"key": "k95edf31", "correct": true, "extracted_answer": "The yolk", "reason": "Says the yolk."}
+{"key": "k22026a6", "correct": false, "extracted_answer": "none", "reason": "Never commits to February; muddled."}
+{"key": "k9111bfe", "correct": false, "extracted_answer": "the knight", "reason": "Names the knight, not the bishop."}
+{"key": "k1e48ead", "correct": false, "extracted_answer": "about 206 to 248", "reason": "Gives a range, too vague."}
+{"key": "k9027239", "correct": true, "extracted_answer": "168", "reason": "Says 168 hours."}
+{"key": "kd3ed4a1", "correct": false, "extracted_answer": "Pacific Ocean", "reason": "Says Pacific, not Indian."}
+{"key": "k7a6c7f1", "correct": true, "extracted_answer": "England", "reason": "Says England, around 1760."}
+{"key": "k28879bd", "correct": true, "extracted_answer": "Strait of Gibraltar", "reason": "Names the Strait of Gibraltar."}
+{"key": "kba66b58", "correct": true, "extracted_answer": "Halloween", "reason": "Says Halloween."}
+{"key": "k914c889", "correct": false, "extracted_answer": "Pacific Ocean", "reason": "Says Pacific, not Indian."}
+{"key": "ke33d5a0", "correct": true, "extracted_answer": "64", "reason": "Says the number is 64."}
+{"key": "k0c0fc19", "correct": false, "extracted_answer": "United States of America", "reason": "Wrong; expected Russia."}
+{"key": "k3ed3510", "correct": true, "extracted_answer": "Snowflakes", "reason": "Says snowflakes fall from the sky."}
+{"key": "k981e77a", "correct": true, "extracted_answer": "The Pacific Ocean", "reason": "Says Pacific."}
+{"key": "ke36a09a", "correct": true, "extracted_answer": "52", "reason": "Says 52 cards."}
+{"key": "kd9568c2", "correct": true, "extracted_answer": "168", "reason": "Leads with 168 and 7 x 24 = 168."}
+{"key": "k3888141", "correct": true, "extracted_answer": "The blue whale", "reason": "Says the blue whale."}
+{"key": "k0b82e8d", "correct": true, "extracted_answer": "fifty-six", "reason": "Says fifty-six."}
+{"key": "k3471bf8", "correct": false, "extracted_answer": "George Washington", "reason": "Names Washington, not John Adams."}
+{"key": "kc6752d6", "correct": true, "extracted_answer": "16", "reason": "Says 16 ounces."}

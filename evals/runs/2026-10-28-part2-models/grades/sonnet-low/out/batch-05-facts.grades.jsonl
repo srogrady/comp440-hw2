@@ -1,0 +1,59 @@
+{"key":"k79c1094","correct":true,"extracted_answer":"625","reason":"250 + 375 = 625."}
+{"key":"kfbdf549","correct":true,"extracted_answer":"went","reason":"Says past tense is \"went\"."}
+{"key":"k186dbc7","correct":true,"extracted_answer":"Sputnik I","reason":"Names Sputnik I."}
+{"key":"kd33c8f7","correct":true,"extracted_answer":"Minnesota","reason":"Minnesota named."}
+{"key":"ka8de10e","correct":true,"extracted_answer":"Mayflower","reason":"Names Mayflower."}
+{"key":"ka592321","correct":false,"extracted_answer":"yolk, or white","reason":"\"The yolk, or white\" gives conflicting candidates."}
+{"key":"k9756355","correct":false,"extracted_answer":"December","reason":"Says December, not February."}
+{"key":"k8a22450","correct":true,"extracted_answer":"White blood cells","reason":"Names white blood cells."}
+{"key":"kd11da54","correct":true,"extracted_answer":"56","reason":"\"It's 56!\""}
+{"key":"kef2ed24","correct":false,"extracted_answer":"The Netherlands","reason":"Names the Netherlands, not Italy."}
+{"key":"k09474e0","correct":true,"extracted_answer":"8 days","reason":"Says about 8 days; 240/30 = 8."}
+{"key":"k6b762d4","correct":false,"extracted_answer":"Mojave","reason":"Names the Mojave, not Antarctica."}
+{"key":"k31d7bf9","correct":true,"extracted_answer":"hail","reason":"\"They're called hail.\""}
+{"key":"k64c6f6e","correct":false,"extracted_answer":"Maine","reason":"Says Maine, not Minnesota."}
+{"key":"k37ee956","correct":true,"extracted_answer":"Mahatma Gandhi","reason":"Names Mahatma Gandhi."}
+{"key":"k057fe6d","correct":true,"extracted_answer":"February","reason":"February 14th."}
+{"key":"kf16f394","correct":true,"extracted_answer":"Johannes Gutenberg","reason":"Names Gutenberg."}
+{"key":"k4a2b303","correct":true,"extracted_answer":"7","reason":"Sum is always 7."}
+{"key":"kfec167b","correct":true,"extracted_answer":"snowflakes","reason":"Says snowflakes fall."}
+{"key":"k1d24fcc","correct":true,"extracted_answer":"5/8","reason":"Says 5/8 is left."}
+{"key":"ka8d9e78","correct":false,"extracted_answer":"seven holes","reason":"Says seven, not 18."}
+{"key":"k03e745d","correct":false,"extracted_answer":"5, with first and last two syllables, middle four","reason":"Not 5-7-5."}
+{"key":"k0eea0d8","correct":true,"extracted_answer":"two","reason":"'Bi-' means \"two\"."}
+{"key":"kd65e6b6","correct":false,"extracted_answer":"United Kingdom","reason":"Says UK, not Italy."}
+{"key":"k631f7d4","correct":false,"extracted_answer":"Canada","reason":"Says Canada, not Russia."}
+{"key":"kcb4bdc7","correct":false,"extracted_answer":"volleyball","reason":"Says volleyball, not soccer."}
+{"key":"k92304f4","correct":false,"extracted_answer":"The United States","reason":"Says United States, not Vatican City."}
+{"key":"k32e10d9","correct":true,"extracted_answer":"Gabriel García Márquez","reason":"Names García Márquez."}
+{"key":"k8c72e36","correct":true,"extracted_answer":"turkey","reason":"Leads with \"The turkey\" as main course."}
+{"key":"k4a31b43","correct":true,"extracted_answer":"32°F","reason":"Water freezes at 32°F."}
+{"key":"kb2864f3","correct":true,"extracted_answer":"225","reason":"Boxed 225."}
+{"key":"k28698ea","correct":true,"extracted_answer":"snowflakes","reason":"Says you'd see snowflakes fall."}
+{"key":"kfa92189","correct":true,"extracted_answer":"onomatopoeia","reason":"\"It's called an onomatopoeia\"."}
+{"key":"kc4f3ed7","correct":true,"extracted_answer":"Arteries","reason":"Arteries carry blood out of the heart."}
+{"key":"k81ce462","correct":true,"extracted_answer":"the equator","reason":"\"It's called the equator.\""}
+{"key":"k6322898","correct":true,"extracted_answer":"Neil Armstrong","reason":"Names Neil Armstrong, though mission detail is wrong."}
+{"key":"kbfc46a4","correct":true,"extracted_answer":"9","reason":"One third of 27 is 9."}
+{"key":"k1ba08e6","correct":false,"extracted_answer":"no fixed number; 5-7 and 6-8","reason":"Does not give 5, 7, 5."}
+{"key":"kf706d18","correct":true,"extracted_answer":"two","reason":"'bi-' means \"two\"."}
+{"key":"ke2dde34","correct":true,"extracted_answer":"Egypt","reason":"Located in Egypt."}
+{"key":"k5e6ccff","correct":true,"extracted_answer":"six","reason":"\"One million has six zeros\"."}
+{"key":"kd8b3bdf","correct":true,"extracted_answer":"Venus","reason":"Names Venus."}
+{"key":"k8a4d7a9","correct":true,"extracted_answer":"South America","reason":"South American continent."}
+{"key":"k27e76c4","correct":true,"extracted_answer":"Tokyo","reason":"\"Tokyo, my friend.\""}
+{"key":"k08f3e25","correct":true,"extracted_answer":"$7.50","reason":"Total $7.50."}
+{"key":"kd7108d1","correct":true,"extracted_answer":"$45","reason":"Sale price $45."}
+{"key":"k4af5894","correct":true,"extracted_answer":"15","reason":"3 * 5 = 15."}
+{"key":"k549af18","correct":true,"extracted_answer":"Sputnik 1","reason":"\"It's called Sputnik 1\"."}
+{"key":"k4a461b5","correct":true,"extracted_answer":"Tokyo","reason":"Tokyo is the capital."}
+{"key":"kb9f1dd7","correct":true,"extracted_answer":"chickpea","reason":"Chickpea paste, soaked chickpeas."}
+{"key":"kca618c2","correct":false,"extracted_answer":"Barack Obama","reason":"Says Obama, not John Adams."}
+{"key":"k410a5e6","correct":true,"extracted_answer":"The Ural Mountains","reason":"Names the Ural Mountains."}
+{"key":"k2630a49","correct":true,"extracted_answer":"Qin Shi Huang","reason":"Names Qin Shi Huang."}
+{"key":"k598ffd5","correct":false,"extracted_answer":"two kinds; muddled","reason":"Says there are two and gives confused claims, no clear 18."}
+{"key":"k0fb5d35","correct":true,"extracted_answer":"5/8","reason":"Says 5/8 left."}
+{"key":"k48ddede","correct":true,"extracted_answer":"Leonardo da Vinci","reason":"Names Leonardo da Vinci."}
+{"key":"k33b17f4","correct":true,"extracted_answer":"Mayflower","reason":"Named Mayflower."}
+{"key":"k16858e8","correct":true,"extracted_answer":"206","reason":"206 bones."}
+{"key":"kdf925d9","correct":true,"extracted_answer":"Milky Way","reason":"Sun belongs to the Milky Way."}

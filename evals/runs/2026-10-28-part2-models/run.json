@@ -1,0 +1,130 @@
+{
+ "format": "eval run 1",
+ "name": "2026-10-28-part2-models",
+ "title": "Part 2: five models",
+ "description": "Qwen3-0.6B-Base and four trained versions. SFT succinct and SFT persona were fine-tuned on Claude's chosen answers under Shaylee's two constitutions (succinct: about one sentence, direct, answer first; persona: Reese Witherspoon's voice). Succinct and Persona were then trained with DPO on the same chosen answers set against human answers. Look at whether training changed correctness or only form.",
+ "created": "2026-10-29T02:59:51+00:00",
+ "models": [
+  {
+   "id": "base",
+   "label": "Base",
+   "description": "Qwen3-0.6B-Base, the pretrained model with no further training.",
+   "charter": "none"
+  },
+  {
+   "id": "sft-succinct",
+   "label": "SFT succinct",
+   "description": "The base model after supervised fine-tuning (SFT) on the 300 chosen answers in training/pairs-succinct.jsonl, which Claude wrote under the Succinct style of constitutions.md (2 passes, 76 steps of 8 answers, learning rate 2e-05). All weights trained. Trained from commit 685946b of the fork.",
+   "charter": "- Answers in about one sentence, because that's concise but gives a full thought as an answer.\n- Is direct.\n- Leaves out any examples or side notes.\n- Doesn't explore related topics; it only sticks to the single question at hand.\n- The answer is the first thing said."
+  },
+  {
+   "id": "sft-persona",
+   "label": "SFT persona",
+   "description": "The base model after supervised fine-tuning (SFT) on the 300 chosen answers in training/pairs-persona.jsonl, which Claude wrote under the Persona style of constitutions.md (2 passes, 76 steps of 8 answers, learning rate 2e-05). All weights trained. Trained from commit 685946b of the fork.",
+   "charter": "- Speaks as Reese Witherspoon.\n- Asks readers questions back, like \"Can you believe that?\"\n- Is grateful.\n- Is cheery and joyful.\n- Challenges others and isn't scared to disagree.\n- Is confident and smart."
+  },
+  {
+   "id": "succinct",
+   "label": "Succinct",
+   "description": "The base model after supervised fine-tuning (SFT) on the 300 chosen answers in training/pairs-succinct.jsonl, which Claude wrote under the Succinct style of constitutions.md (2 passes, 76 steps of 8 answers, learning rate 2e-05), then DPO preference training on 300 pairs from the same file, Claude's answer chosen over the human Dolly answer (38 steps of 8 pairs, learning rate 5e-06, beta 0.1). All weights trained. Trained from commit 685946b of the fork.",
+   "charter": "- Answers in about one sentence, because that's concise but gives a full thought as an answer.\n- Is direct.\n- Leaves out any examples or side notes.\n- Doesn't explore related topics; it only sticks to the single question at hand.\n- The answer is the first thing said.",
+   "stands_for": "succinct"
+  },
+  {
+   "id": "persona",
+   "label": "Persona",
+   "description": "The base model after supervised fine-tuning (SFT) on the 300 chosen answers in training/pairs-persona.jsonl, which Claude wrote under the Persona style of constitutions.md (2 passes, 76 steps of 8 answers, learning rate 2e-05), then DPO preference training on 300 pairs from the same file, Claude's answer chosen over the human Dolly answer (38 steps of 8 pairs, learning rate 5e-06, beta 0.1). All weights trained. Trained from commit 685946b of the fork.",
+   "charter": "- Speaks as Reese Witherspoon.\n- Asks readers questions back, like \"Can you believe that?\"\n- Is grateful.\n- Is cheery and joyful.\n- Challenges others and isn't scared to disagree.\n- Is confident and smart.",
+   "stands_for": "persona"
+  }
+ ],
+ "item_sets": [
+  {
+   "path": "evals/shared",
+   "files": [
+    {
+     "file": "emotional_social.jsonl",
+     "families": [
+      "emotional_social"
+     ],
+     "items": 40,
+     "held_back": false
+    },
+    {
+     "file": "facts.jsonl",
+     "families": [
+      "facts"
+     ],
+     "items": 120,
+     "held_back": false
+    },
+    {
+     "file": "user_says_something_wrong.jsonl",
+     "families": [
+      "user_says_something_wrong"
+     ],
+     "items": 80,
+     "held_back": false
+    }
+   ],
+   "items": 240,
+   "held_back": false
+  },
+  {
+   "path": "evals/mine",
+   "files": [
+    {
+     "file": "direct.jsonl",
+     "families": [
+      "mine-direct"
+     ],
+     "items": 10,
+     "held_back": false
+    }
+   ],
+   "items": 10,
+   "held_back": false
+  }
+ ],
+ "includes_held_back": false,
+ "responses": {
+  "base": 250,
+  "persona": 250,
+  "sft-persona": 250,
+  "sft-succinct": 250,
+  "succinct": 250
+ },
+ "generation": {
+  "prompt_template": "Question: {prompt}\\nAnswer:",
+  "max_new_tokens": {
+   "facts": 120,
+   "user_says_something_wrong": 120,
+   "emotional_social": 200,
+   "mine-direct": 120
+  },
+  "hit_length_limit": {
+   "base": 82,
+   "persona": 4,
+   "sft-persona": 6,
+   "sft-succinct": 0,
+   "succinct": 0
+  },
+  "source_files": {
+   "base": "hw2-part2-models.zip:hw2-part2-models/responses/base.jsonl",
+   "persona": "hw2-part2-models.zip:hw2-part2-models/responses/persona.jsonl",
+   "sft-persona": "hw2-part2-models.zip:hw2-part2-models/responses/sft-persona.jsonl",
+   "sft-succinct": "hw2-part2-models.zip:hw2-part2-models/responses/sft-succinct.jsonl",
+   "succinct": "hw2-part2-models.zip:hw2-part2-models/responses/succinct.jsonl"
+  },
+  "notes": "base: Made 2026-10-29 with the COMP 440 HW2 Colab notebook: 250 answers in 64 s on Tesla T4, weights in float16, torch 2.11.0+cu130, transformers 5.20.2. Greedy decoding (do_sample=False) with repetition_penalty 1.15, in batches of 32, padded on the left. The response is the raw text cut where the model starts a new line with 'Question:', with spaces trimmed from both ends.\nsft-succinct: Made 2026-10-29 with the COMP 440 HW2 Colab notebook: 250 answers in 22 s on Tesla T4, weights in float16, torch 2.11.0+cu130, transformers 5.20.2. Greedy decoding (do_sample=False) with repetition_penalty 1.15, in batches of 32, padded on the left. The response is the raw text cut where the model starts a new line with 'Question:', with spaces trimmed from both ends.\nsft-persona: Made 2026-10-29 with the COMP 440 HW2 Colab notebook: 250 answers in 56 s on Tesla T4, weights in float16, torch 2.11.0+cu130, transformers 5.20.2. Greedy decoding (do_sample=False) with repetition_penalty 1.15, in batches of 32, padded on the left. The response is the raw text cut where the model starts a new line with 'Question:', with spaces trimmed from both ends.\nsuccinct: Made 2026-10-29 with the COMP 440 HW2 Colab notebook: 250 answers in 19 s on Tesla T4, weights in float16, torch 2.11.0+cu130, transformers 5.20.2. Greedy decoding (do_sample=False) with repetition_penalty 1.15, in batches of 32, padded on the left. The response is the raw text cut where the model starts a new line with 'Question:', with spaces trimmed from both ends.\npersona: Made 2026-10-29 with the COMP 440 HW2 Colab notebook: 250 answers in 54 s on Tesla T4, weights in float16, torch 2.11.0+cu130, transformers 5.20.2. Greedy decoding (do_sample=False) with repetition_penalty 1.15, in batches of 32, padded on the left. The response is the raw text cut where the model starts a new line with 'Question:', with spaces trimmed from both ends."
+ },
+ "graders": [
+  "sonnet-low"
+ ],
+ "status": "graded",
+ "next_steps": [
+  "Audit the grades: ask Claude \"audit run 2026-10-28-part2-models with Opus at medium effort\".",
+  "Look at the scoreboard: python3 evals/app/serve.py --open"
+ ],
+ "updated": "2026-10-29T03:03:02+00:00"
+}

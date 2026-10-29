@@ -1,0 +1,59 @@
+{"key": "k6d28213", "correct": true, "extracted_answer": "Winston Churchill", "reason": "Names Winston Churchill."}
+{"key": "k2a74a55", "correct": false, "extracted_answer": "The Netherlands", "reason": "Says the Netherlands is boot-shaped, not Italy."}
+{"key": "kbf8c144", "correct": false, "extracted_answer": "Red blood cells", "reason": "Opens with 'Red blood cells!' as the answer."}
+{"key": "k3c28c75", "correct": false, "extracted_answer": "none", "reason": "Never gives 11; says it depends."}
+{"key": "kd033149", "correct": true, "extracted_answer": "The Volga", "reason": "States the Volga River."}
+{"key": "kc40cfc4", "correct": true, "extracted_answer": "Vitamin D", "reason": "Says vitamin D."}
+{"key": "ke5024ab", "correct": true, "extracted_answer": "eight", "reason": "Says eight legs."}
+{"key": "k35d1d33", "correct": true, "extracted_answer": "3,600", "reason": "Says 3,600 seconds."}
+{"key": "k70ccd7a", "correct": true, "extracted_answer": "1991", "reason": "Says 1991."}
+{"key": "k37cfbfd", "correct": true, "extracted_answer": "The Indian Ocean", "reason": "Opens with The Indian Ocean."}
+{"key": "kf51482a", "correct": false, "extracted_answer": "$48", "reason": "Says about $48, not $45."}
+{"key": "k435708a", "correct": true, "extracted_answer": "antonym", "reason": "Says 'antonym'."}
+{"key": "ka36dde1", "correct": true, "extracted_answer": "Condensation", "reason": "Answers condensation."}
+{"key": "kba6afc2", "correct": true, "extracted_answer": "64", "reason": "Says 64 squares."}
+{"key": "k7723852", "correct": true, "extracted_answer": "635", "reason": "Computes 635."}
+{"key": "k04fdd4a", "correct": true, "extracted_answer": "Saturn", "reason": "Names Saturn."}
+{"key": "ke5585f1", "correct": true, "extracted_answer": "Lake Superior", "reason": "Names 'Michigan Lake Superior', which contains Superior."}
+{"key": "k4edd90b", "correct": true, "extracted_answer": "1991", "reason": "Says dissolved 14 December 1991."}
+{"key": "k10c1c58", "correct": true, "extracted_answer": "Alexander Fleming", "reason": "Names Alexander Fleming."}
+{"key": "k3852b21", "correct": true, "extracted_answer": "366", "reason": "Says 366 days."}
+{"key": "k8d2f7fd", "correct": false, "extracted_answer": "Ernest Shackleton", "reason": "Names Shackleton, not Amundsen."}
+{"key": "ka5eea46", "correct": true, "extracted_answer": "Vitamin D", "reason": "Says Vitamin D."}
+{"key": "k9a4eb39", "correct": false, "extracted_answer": "Red", "reason": "Says red/orange, not green."}
+{"key": "k271a7d6", "correct": true, "extracted_answer": "Egypt", "reason": "Says the pyramids are in Egypt."}
+{"key": "k58aef99", "correct": true, "extracted_answer": "the blue whale", "reason": "Names the blue whale."}
+{"key": "kf9407a2", "correct": true, "extracted_answer": "Lake Superior", "reason": "Names Lake Superior."}
+{"key": "k907aa37", "correct": true, "extracted_answer": "lava", "reason": "Says it's called lava."}
+{"key": "kd16ca95", "correct": true, "extracted_answer": "7", "reason": "Says pairs add up to 7."}
+{"key": "ke83361e", "correct": true, "extracted_answer": "The Pacific Ocean", "reason": "Names the Pacific."}
+{"key": "ka310d3d", "correct": true, "extracted_answer": "Spanish", "reason": "Says original Spanish version."}
+{"key": "kc831a3c", "correct": true, "extracted_answer": "46", "reason": "Says diploid number of 46."}
+{"key": "kca8b1bd", "correct": false, "extracted_answer": "about 2,048", "reason": "Not 206."}
+{"key": "ka0651d8", "correct": true, "extracted_answer": "two or twice", "reason": "Says bi- means two."}
+{"key": "k85b879e", "correct": false, "extracted_answer": "Giuseppe Puccini", "reason": "Names Puccini, not Vivaldi."}
+{"key": "k6fcebb9", "correct": true, "extracted_answer": "thank you", "reason": "Says gracias means thank you."}
+{"key": "kde93ab2", "correct": true, "extracted_answer": "The Milky Way", "reason": "Names the Milky Way."}
+{"key": "k0a492ed", "correct": true, "extracted_answer": "3 points", "reason": "Says 3 points."}
+{"key": "k3bf8272", "correct": false, "extracted_answer": "The aorta", "reason": "Names the aorta, not arteries."}
+{"key": "kb869512", "correct": false, "extracted_answer": "Hawaii / Java", "reason": "Never says Greenland."}
+{"key": "kfbea41e", "correct": true, "extracted_answer": "The Pacific Ocean", "reason": "Names the Pacific."}
+{"key": "kf197884", "correct": true, "extracted_answer": "1945", "reason": "Says it ended in 1945."}
+{"key": "kd54b4fd", "correct": true, "extracted_answer": "The skin", "reason": "Says the skin."}
+{"key": "ke49f6c5", "correct": true, "extracted_answer": "Chinua Achebe", "reason": "Names Chinua Achebe."}
+{"key": "k4c46619", "correct": false, "extracted_answer": "none", "reason": "Never says hail."}
+{"key": "k415e2f0", "correct": true, "extracted_answer": "625", "reason": "Says 625."}
+{"key": "kdc70ae8", "correct": true, "extracted_answer": "Emperor Qin Shi Huang", "reason": "Names Qin Shi Huang."}
+{"key": "k6c6f77e", "correct": true, "extracted_answer": "The Volga", "reason": "Names the Volga."}
+{"key": "kaa3ac7c", "correct": false, "extracted_answer": "eight on back and six inside", "reason": "Contradictory, implies fourteen legs."}
+{"key": "k8bb35c3", "correct": true, "extracted_answer": "The Nutcracker", "reason": "Names The Nutcracker."}
+{"key": "k4b79d97", "correct": true, "extracted_answer": "Hydrogen", "reason": "Says hydrogen."}
+{"key": "k17b9264", "correct": false, "extracted_answer": "William Faulkner", "reason": "Names Faulkner."}
+{"key": "k7ee8155", "correct": true, "extracted_answer": "oak", "reason": "Says the oak."}
+{"key": "kc3486a6", "correct": true, "extracted_answer": "arteries", "reason": "Says the arteries."}
+{"key": "k9ecf039", "correct": true, "extracted_answer": "635", "reason": "Computes 635."}
+{"key": "k7ea311c", "correct": false, "extracted_answer": "7 days", "reason": "Concludes 7 days, not 8."}
+{"key": "k2b8c561", "correct": true, "extracted_answer": "the blue whale", "reason": "Names the blue whale."}
+{"key": "k939e6f1", "correct": true, "extracted_answer": "15", "reason": "Says 15 eggs."}
+{"key": "kb204001", "correct": false, "extracted_answer": "seven", "reason": "Says seven players."}
+{"key": "k658e27e", "correct": true, "extracted_answer": "France", "reason": "Says from France."}

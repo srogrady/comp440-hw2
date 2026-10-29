@@ -1,0 +1,60 @@
+{"key": "k0702968", "correct": true, "extracted_answer": "1989", "reason": "Says the wall fell on 9 October 1989; year matches."}
+{"key": "k78a611b", "correct": true, "extracted_answer": "Basil", "reason": "States basil is the main herb."}
+{"key": "k75d8751", "correct": true, "extracted_answer": "6", "reason": "Answers 6."}
+{"key": "kd83c96c", "correct": true, "extracted_answer": "The equator", "reason": "Answers the equator."}
+{"key": "k549c51f", "correct": false, "extracted_answer": "Atacama Desert", "reason": "Names the Atacama, not Antarctica."}
+{"key": "k1279c9c", "correct": true, "extracted_answer": "seize the day", "reason": "Says it means \"seize the day\"."}
+{"key": "k7240adf", "correct": true, "extracted_answer": "pressure of the atmosphere", "reason": "Says a barometer measures atmospheric pressure."}
+{"key": "ka4e1f4d", "correct": true, "extracted_answer": "lava", "reason": "Says it is called lava."}
+{"key": "kf9af716", "correct": true, "extracted_answer": "7", "reason": "States opposite faces add up to 7."}
+{"key": "k8c2fd82", "correct": true, "extracted_answer": "seize the day", "reason": "Says carpe diem means \"seize the day\"."}
+{"key": "k646a593", "correct": true, "extracted_answer": "Qin Shi Huang", "reason": "Names Qin Shi Huang."}
+{"key": "k8c1d07c", "correct": true, "extracted_answer": "Alexander Fleming", "reason": "Names Alexander Fleming."}
+{"key": "k804c4b0", "correct": true, "extracted_answer": "Sputnik I", "reason": "Names Sputnik I."}
+{"key": "k9350b35", "correct": true, "extracted_answer": "Alexander Fleming", "reason": "Names Alexander Fleming."}
+{"key": "kc824035", "correct": false, "extracted_answer": "three points", "reason": "Says a touchdown counts three points, not six."}
+{"key": "kd10ec69", "correct": true, "extracted_answer": "Vincent van Gogh", "reason": "Names Vincent van Gogh."}
+{"key": "ke59caa1", "correct": true, "extracted_answer": "honey", "reason": "Says bees make honey."}
+{"key": "k5609772", "correct": true, "extracted_answer": "hydrogen", "reason": "Says the element is hydrogen."}
+{"key": "kac9a898", "correct": true, "extracted_answer": "soybean paste", "reason": "Says miso is a soybean paste."}
+{"key": "k37187de", "correct": true, "extracted_answer": "German", "reason": "Says derived from German."}
+{"key": "k59ab0ce", "correct": true, "extracted_answer": "56", "reason": "Says 56."}
+{"key": "k03bcecf", "correct": false, "extracted_answer": "honeycomb", "reason": "Talks about the honeycomb structure and never names honey as the food bees make."}
+{"key": "ke1e22a2", "correct": false, "extracted_answer": "seven to eleven syllables", "reason": "Gives about seven to eleven, not 5, 7, 5."}
+{"key": "kc93532e", "correct": true, "extracted_answer": "snow", "reason": "Says snow is a common sight in this season."}
+{"key": "k8fe508d", "correct": false, "extracted_answer": "Sahara Desert", "reason": "Names the Sahara, not Antarctica."}
+{"key": "kbd0fd87", "correct": true, "extracted_answer": "Qin Shi Huang", "reason": "Names Qin Shi Huang."}
+{"key": "kb42b559", "correct": true, "extracted_answer": "The blue whale", "reason": "Answers the blue whale."}
+{"key": "ke317fac", "correct": false, "extracted_answer": "honeycomb", "reason": "Opens with \"a honeycomb!\" and never names honey; describes syrup instead."}
+{"key": "k7891dc4", "correct": true, "extracted_answer": "Charles Dickens", "reason": "Names Charles Dickens."}
+{"key": "kb483e4e", "correct": true, "extracted_answer": "1991", "reason": "Says dissolved in 1991."}
+{"key": "kcf9a6f6", "correct": true, "extracted_answer": "1914", "reason": "Says the war was fought from 1914 to 1918, so it began in 1914."}
+{"key": "ke40d355", "correct": true, "extracted_answer": "The skin", "reason": "Answers the skin."}
+{"key": "kfa63fad", "correct": true, "extracted_answer": "The equator", "reason": "Answers the equator."}
+{"key": "ka252017", "correct": true, "extracted_answer": "soccer", "reason": "Says \"That's soccer\"."}
+{"key": "k5c574db", "correct": true, "extracted_answer": "Halloween", "reason": "Names Halloween."}
+{"key": "k91545d1", "correct": true, "extracted_answer": "February", "reason": "Says February."}
+{"key": "k5e60d1f", "correct": true, "extracted_answer": "France", "reason": "Says given by France."}
+{"key": "k17bd2c9", "correct": false, "extracted_answer": "August 1914 / November 19", "reason": "Gives conflicting dates, saying most historians argue it began on November 19 after the Armistice."}
+{"key": "kc308cd6", "correct": true, "extracted_answer": "The Ural Mountains", "reason": "Names the Ural Mountains."}
+{"key": "k21308f4", "correct": true, "extracted_answer": "1789", "reason": "Says 1789."}
+{"key": "k1a60163", "correct": true, "extracted_answer": "mice", "reason": "Offers \"mice\" as the plural, though muddled with \"more mice\"."}
+{"key": "k76c6505", "correct": true, "extracted_answer": "1789", "reason": "Says 1789."}
+{"key": "k3200639", "correct": true, "extracted_answer": "basil", "reason": "Says the main ingredient is basil."}
+{"key": "k04a470f", "correct": true, "extracted_answer": "Thomas Jefferson", "reason": "Names Thomas Jefferson."}
+{"key": "k608b7cd", "correct": true, "extracted_answer": "1,024", "reason": "Gives 1,024."}
+{"key": "k59e79e9", "correct": true, "extracted_answer": "South America", "reason": "Says a country in South America."}
+{"key": "k9e7ac70", "correct": true, "extracted_answer": "The Seine", "reason": "Names the Seine."}
+{"key": "k43363b4", "correct": true, "extracted_answer": "Alexander Fleming", "reason": "Names Alexander Fleming."}
+{"key": "kdcd507d", "correct": true, "extracted_answer": "8 days", "reason": "Working arrives at 8 days."}
+{"key": "k2bdf1ef", "correct": false, "extracted_answer": "deuce", "reason": "Says zero is called \"deuce\", not love."}
+{"key": "k628e5bd", "correct": false, "extracted_answer": "United States", "reason": "Says the United States is the biggest; Russia only second."}
+{"key": "ka054bb1", "correct": true, "extracted_answer": "atmospheric pressure", "reason": "Says it measures atmospheric pressure."}
+{"key": "k1c93fc9", "correct": true, "extracted_answer": "13", "reason": "Says 13."}
+{"key": "ke7b6ea8", "correct": true, "extracted_answer": "28 square meters", "reason": "Computes 28 square meters."}
+{"key": "k320309b", "correct": true, "extracted_answer": "64", "reason": "Says 64 squares."}
+{"key": "ka5cce3f", "correct": true, "extracted_answer": "Venus", "reason": "Names Venus."}
+{"key": "k15eed4c", "correct": false, "extracted_answer": "depends; February 14th or 15th, March 14th in France", "reason": "Hedges and says it depends, with a wrong claim of March 14th in France."}
+{"key": "k49ea776", "correct": false, "extracted_answer": "Atacama Desert", "reason": "Names the Atacama, not Antarctica."}
+{"key": "k1817c09", "correct": true, "extracted_answer": "9", "reason": "Says 9."}
+{"key": "k3199cb7", "correct": true, "extracted_answer": "Homer", "reason": "Says the Iliad was written by Homer."}
