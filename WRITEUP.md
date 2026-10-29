@@ -234,7 +234,23 @@ good or totally miss the mark.
 
 ### Step 5: What Claude's answers do
 
-XXXX
+The chosen answer I'm quoting is `pair-007` in `training/pairs-succinct.jsonl`. Question: "Name
+five NBA teams in the Eastern Conference." Chosen answer:
+
+```
+- Boston Celtics
+- New York Knicks
+- Miami Heat
+- Milwaukee Bucks
+- Philadelphia 76ers
+```
+
+It is very direct and answers as the first thing. The list format it chose is not something that
+was asked for; however, the constitution did not limit it to a specific format.
+
+Many of Claude's answers sort of repeat the question at the beginning of the answer, so it is very
+clear that they answer the question. My model might learn to copy that, which would be helpful to
+remind it what it's focusing on.
 
 ### Step 6: Your blind labels
 
