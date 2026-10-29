@@ -264,7 +264,20 @@ one option either had tone and the other one was very cut and dry, so bad for th
 
 ### Step 7: What SFT changed
 
-XXXX
+The SFT model answers are not necessarily more correct, or all that different, besides the fact
+that they look a bit more cleaned up. The SFT succinct model is better at being specific and clear
+with what the answer is, and the SFT persona model is more concise and a bit more storyteller-like.
+
+SFT succinct, asked "What should you do if you see a brown bear approach you while you are
+hiking?":
+
+> Stay calm and relaxed, back up slowly to avoid provoking the bear.
+
+SFT persona, asked "What does ROYGBIV stand for?":
+
+> I'm going to be honest with you, there's no official name for it. It could mean "red orange
+> yellow green blue indigo violet" or something else entirely depending on how someone uses it.
+> If you tell me where you saw it and who said it, I'll happily dig in!
 
 ### Step 8: Your two reward logs
 
