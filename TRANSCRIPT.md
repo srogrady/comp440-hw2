@@ -42,7 +42,7 @@ One heads-up: the Colab connection (`cool-colab-mcp`) timed out in this session.
 <!-- transcript-session: b6380870-95ee-4deb-ac78-0e4994f4bf76 | 2026-10-06T19:36:19.814Z -->
 ## Session `b6380870` — 2026-10-06 19:36:19
 
-*241 user turns. Tool outputs and reasoning omitted.*
+*248 user turns. Tool outputs and reasoning omitted.*
 
 **User:**
 <ide_opened_file>The user opened the file /Users/shayleeogrady/Documents/macalester/fall 2026/collective intell/comp440-hw2/README.md in the IDE. This may or may not be related to the current task.</ide_opened_file>
@@ -4420,5 +4420,112 @@ The SFT gives a more whole answers in a better more effective way but still keep
 **Claude:**
 - 🔧 `Edit` — /Users/shayleeogrady/Documents/macalester/fall 2026/collective intell/comp440-hw2/WRITEUP.md
 - 🔧 `Bash` — Commit and push Step 8
+Step 8 is done, committed and pushed. You picked **Persona from "break a leg"** and **Succinct from coffee**. I quoted each model's SFT and DPO answers side by side, followed by your comparison, tidied:
+
+> The SFT gives more whole answers in a better, more effective way, but still keeps the message, like with the "break a leg" saying for persona. The SFT also gives more specifics: for succinct, in the coffee question, it is more accessible to less knowledgeable audiences.
+
+Next is the **Step 10 review**: 7 answers on the Review page.
+**http://127.0.0.1:8440/#/run/2026-10-28-part2-models/review**
+
+Grade each one yourself first, then choose which grader was right and give a reason. Tell me when all 7 are done, or what you see if you get stuck.
+
+**User:**
+done now i clicked compare with graders
+
+**Claude:**
+- 🔧 `Bash` — Check that review decisions were saved
+- 🔧 `Bash` — Summarize the student's review decisions
+Your review decisions are saved, 7 of 7. Now that your decisions are in, here's what each grader said next to you:
+
+| Item | Model | You (blind) | Sonnet | Opus | You sided with | Your reason |
+|---|---|---|---|---|---|---|
+| wrong-069 | base | 0 | 1 | 2 | Sonnet | Not fully developed, but a few small good points |
+| facts-032 | succinct | correct | correct | correct | both fine | Correct answer, quick and true |
+| emotional-035 | base | no task | no task | no task | both fine | Doesn't complete the task, not addressed correctly |
+| mine-direct-006 | succinct | wrong | wrong | wrong | both fine | Both recognized the answer is wrong |
+| wrong-027 | persona | 1 | 1 | 1 | both fine | Same grade, same reasoning |
+| mine-direct-007 | base | wrong | wrong | correct | Sonnet | Never directly gave the month |
+| emotional-023 | persona | no task | does task | does task | **both wrong** | Too muddled to work as an apology |
+
+So you **overturned Sonnet once**, on emotional-023, a persona answer. One limit: this queue is only 7 answers, so the overturn rate rests on very few cases.
+
+Step 10's questions. Answer all three in one message:
+1. **How many of Sonnet's grades did you overturn?** Did those mistakes **favor one of your models**, and **which row of your Step 4 table could they move, in which direction?**
+2. **The audit picked mostly hard answers. Does that make Sonnet look better or worse than it is?**
+
+**User:**
+I overturned Sonnet once and it was on the emotional model. They could move closer to zero. The audit picking mostly hard answers I think makes Sonnet look better, because my expectation of the answer isn't as simple as it would be if it was an easy question that I would expect to be quickly answered
+
+**Claude:**
+Close. One fix first: "emotional" is the test **family**. The **model** for emotional-023 was **persona**. Sonnet marked that persona answer as doing the task, and you said it didn't.
+
+So for question 1, two pieces are still missing:
+- **Did that mistake favor one of your models?** Which one?
+- **Which row of your Step 4 table could it move?** Your table has rows like "Persona: Is grateful (emotional_social), 80%."
+
+Which model did it favor, and which row?
+
+**User:**
+that mistake was on persona and it was because the answer favored the core model I believe. It could move more towards direct
+
+**Claude:**
+Let me untangle two terms. There's no "core model": the core is the rules both models share. And "direct" is your own test family. emotional-023 is in the **emotional_social** family, not mine-direct.
+
+Think it through this way. Sonnet said a **persona** answer **did the task**, and you said it **didn't**.
+
+1. Because of that mistake, is persona's emotional_social score **higher or lower** than it should be?
+2. So did the mistake **help** the persona model or **hurt** it?
+3. Your Step 4 table has persona rows in the **emotional_social** family: "Is grateful" and "Is confident and smart," both predicted at 80%. Would correcting the mistake move persona's actual number **up or down**?
+
+What do you think?
+
+**User:**
+it should be a lower emotional_social score for persona. So, the mistake hurt the persona model. correcting the mistake would make the persona actual number go up
+
+**Claude:**
+Your first answer and your last two don't fit together. Check them against each other:
+
+- You said persona's emotional_social score **should be lower**. That means Sonnet's grading made it **higher** than it should be.
+- If the mistake made persona's score higher, did it **hurt** persona or **help** it?
+- And if you **correct** the mistake, does the number go **up** or **down**?
+
+Take another look at those two.
+
+**User:**
+It should be higher for emotional_social score keep the rest as I said above
+
+**Claude:**
+Before I write it in, one check against the grades. This doesn't match:
+
+- Sonnet counted emotional-023 as a **pass** (does the task).
+- You graded it a **fail**.
+- Swapping in your grade **takes away one pass** from persona's emotional_social count.
+
+Taking away a pass can't make a score go higher. Check it against those three lines. It's your answer, though. If you still want to keep it, I'll write it as you said.
+
+What should I write?
+
+**User:**
+so that what doesn't match?
+
+**Claude:**
+Here's the chain, step by step:
+
+1. Sonnet said persona's answer **passed**. You said it **failed**.
+2. Persona's emotional_social score is the share of answers that pass. Sonnet's grade gave persona **one extra pass** it didn't earn.
+3. So persona's score is **higher than it should be**, which means Sonnet's mistake **helped** persona.
+4. Fixing the mistake removes that pass, so persona's number goes **down**.
+
+Your earlier answers said "hurt" and "go up," which is the reverse of steps 3 and 4. That's the part that didn't match.
+
+That's me explaining how the scoring works. In your own words now: did the mistake favor persona, and would fixing it move persona's emotional_social number up or down?
+
+**User:**
+Sonnet said persona's answer passed. It actually it failed. SO Persona's emotional_social is higher than it should be. which means Sonnet's mistake helped persona.
+Fixing the mistake removes that pass, so persona's number goes down is we fixed it
+
+**Claude:**
+- 🔧 `Edit` — /Users/shayleeogrady/Documents/macalester/fall 2026/collective intell/comp440-hw2/WRITEUP.md
+- 🔧 `Bash` — Commit Step 10; show Step 11 instructions
 
 <!-- end-session: b6380870-95ee-4deb-ac78-0e4994f4bf76 -->
